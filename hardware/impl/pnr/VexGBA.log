@@ -1,0 +1,36 @@
+Reading netlist file: "F:\2024FPGA\gbatang\impl\gwsynthesis\VexGBA.vg"
+Parsing netlist file "F:\2024FPGA\gbatang\impl\gwsynthesis\VexGBA.vg" completed
+Processing netlist completed
+Reading constraint file: "F:\2024FPGA\gbatang\src\m138k\m138k.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk16" and "clk_1p526m/clkdiv_inst/CLKOUT.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk16" and "clk_6p25m/PLL_inst/CLKOUT0.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk50" and "GMII_pll/PLL_inst/CLKOUT0.default_gen_clk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk16" and "hclk"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk16" and "hclk5"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "clk16" and "io_jtag_tck"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "io_jtag_tck" and "clk16"
+WARN  (TA1117) : Can't calculate clocks' relationship between: "GMII_pll/PLL_inst/CLKOUT0.default_gen_clk" and "clk50"
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'sysclk_d' by the specified constraint. And then it may lead to the excessive delay or skew
+WARN  (PR1014) : Generic routing resource will be used to clock signal 'io_jtag_tck_d' by the specified constraint. And then it may lead to the excessive delay or skew
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Generate file "F:\2024FPGA\gbatang\impl\pnr\VexGBA.pin.html" completed
+Generate file "F:\2024FPGA\gbatang\impl\pnr\VexGBA.rpt.html" completed
+Generate file "F:\2024FPGA\gbatang\impl\pnr\VexGBA.rpt.txt" completed
+Generate file "F:\2024FPGA\gbatang\impl\pnr\VexGBA.tr.html" completed
+Mon Nov  4 21:23:12 2024
+

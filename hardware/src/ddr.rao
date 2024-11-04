@@ -1,0 +1,424 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="capture/ddr_wr/clk_ddr" trig_type="0" storage_depth="2048" window_num="1" capture_amount="2048" implementation="0" trigger_pos="0" module_name="VexGBA" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus capture_enable="true" name="capture/ddr_rd/line_cnt[7:0]">
+                <Signal>capture/ddr_rd/line_cnt[7]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[6]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[5]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[4]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[3]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[2]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[1]</Signal>
+                <Signal>capture/ddr_rd/line_cnt[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="capture/ddr_rd/cmd_cnt[4:0]">
+                <Signal>capture/ddr_rd/cmd_cnt[4]</Signal>
+                <Signal>capture/ddr_rd/cmd_cnt[3]</Signal>
+                <Signal>capture/ddr_rd/cmd_cnt[2]</Signal>
+                <Signal>capture/ddr_rd/cmd_cnt[1]</Signal>
+                <Signal>capture/ddr_rd/cmd_cnt[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="capture/ddr_rd/ddr_rd_addr[28:0]">
+                <Signal>capture/ddr_rd/ddr_rd_addr[28]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[27]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[26]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[25]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[24]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[23]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[22]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[21]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[20]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[19]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[18]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[17]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[16]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[15]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[14]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[13]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[12]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[11]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[10]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[9]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[8]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[7]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[6]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[5]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[4]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[3]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[2]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[1]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_addr[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">capture/ddr_rd/ddr_cmd_rdy</Signal>
+            <Signal capture_enable="true">capture/ddr_rd/ddr_cmd_en</Signal>
+            <Signal capture_enable="true">capture/ddr_rd/ddr_rd_data_valid</Signal>
+            <Signal capture_enable="true">capture/ddr_rd/ddr_rd_data_end</Signal>
+            <Signal capture_enable="true">capture/ddr_rd/init_calib_complete</Signal>
+            <Bus capture_enable="true" name="capture/ddr_rd/Rnum[10:0]">
+                <Signal>capture/ddr_rd/Rnum[10]</Signal>
+                <Signal>capture/ddr_rd/Rnum[9]</Signal>
+                <Signal>capture/ddr_rd/Rnum[8]</Signal>
+                <Signal>capture/ddr_rd/Rnum[7]</Signal>
+                <Signal>capture/ddr_rd/Rnum[6]</Signal>
+                <Signal>capture/ddr_rd/Rnum[5]</Signal>
+                <Signal>capture/ddr_rd/Rnum[4]</Signal>
+                <Signal>capture/ddr_rd/Rnum[3]</Signal>
+                <Signal>capture/ddr_rd/Rnum[2]</Signal>
+                <Signal>capture/ddr_rd/Rnum[1]</Signal>
+                <Signal>capture/ddr_rd/Rnum[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="capture/ddr_rd/line_number[7:0]">
+                <Signal>capture/ddr_rd/line_number[7]</Signal>
+                <Signal>capture/ddr_rd/line_number[6]</Signal>
+                <Signal>capture/ddr_rd/line_number[5]</Signal>
+                <Signal>capture/ddr_rd/line_number[4]</Signal>
+                <Signal>capture/ddr_rd/line_number[3]</Signal>
+                <Signal>capture/ddr_rd/line_number[2]</Signal>
+                <Signal>capture/ddr_rd/line_number[1]</Signal>
+                <Signal>capture/ddr_rd/line_number[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">capture/ddr_rd/is_transmitting</Signal>
+            <Signal capture_enable="true">capture/ddr_rd/send_finish_pos</Signal>
+            <Bus capture_enable="true" name="capture/ddr_rd/ddr_rd_data[255:0]">
+                <Signal>capture/ddr_rd/ddr_rd_data[255]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[254]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[253]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[252]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[251]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[250]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[249]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[248]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[247]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[246]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[245]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[244]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[243]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[242]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[241]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[240]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[239]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[238]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[237]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[236]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[235]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[234]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[233]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[232]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[231]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[230]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[229]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[228]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[227]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[226]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[225]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[224]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[223]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[222]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[221]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[220]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[219]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[218]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[217]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[216]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[215]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[214]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[213]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[212]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[211]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[210]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[209]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[208]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[207]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[206]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[205]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[204]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[203]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[202]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[201]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[200]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[199]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[198]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[197]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[196]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[195]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[194]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[193]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[192]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[191]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[190]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[189]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[188]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[187]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[186]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[185]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[184]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[183]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[182]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[181]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[180]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[179]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[178]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[177]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[176]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[175]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[174]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[173]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[172]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[171]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[170]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[169]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[168]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[167]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[166]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[165]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[164]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[163]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[162]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[161]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[160]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[159]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[158]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[157]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[156]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[155]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[154]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[153]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[152]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[151]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[150]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[149]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[148]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[147]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[146]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[145]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[144]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[143]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[142]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[141]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[140]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[139]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[138]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[137]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[136]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[135]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[134]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[133]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[132]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[131]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[130]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[129]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[128]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[127]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[126]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[125]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[124]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[123]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[122]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[121]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[120]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[119]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[118]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[117]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[116]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[115]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[114]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[113]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[112]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[111]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[110]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[109]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[108]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[107]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[106]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[105]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[104]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[103]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[102]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[101]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[100]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[99]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[98]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[97]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[96]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[95]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[94]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[93]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[92]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[91]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[90]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[89]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[88]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[87]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[86]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[85]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[84]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[83]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[82]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[81]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[80]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[79]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[78]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[77]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[76]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[75]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[74]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[73]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[72]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[71]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[70]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[69]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[68]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[67]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[66]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[65]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[64]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[63]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[62]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[61]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[60]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[59]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[58]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[57]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[56]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[55]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[54]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[53]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[52]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[51]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[50]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[49]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[48]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[47]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[46]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[45]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[44]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[43]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[42]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[41]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[40]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[39]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[38]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[37]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[36]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[35]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[34]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[33]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[32]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[31]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[30]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[29]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[28]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[27]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[26]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[25]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[24]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[23]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[22]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[21]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[20]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[19]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[18]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[17]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[16]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[15]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[14]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[13]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[12]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[11]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[10]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[9]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[8]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[7]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[6]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[5]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[4]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[3]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[2]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[1]</Signal>
+                <Signal>capture/ddr_rd/ddr_rd_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">capture/ddr_rd/intr_sig</Signal>
+            <Signal capture_enable="true">capture/is_write</Signal>
+            <Signal capture_enable="true">capture/is_write_d1</Signal>
+            <Signal capture_enable="true">capture/is_write_neg</Signal>
+            <Signal capture_enable="true">capture/is_write_neg_d1</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Bus restorename="capture/ddr_rd/ddr_rd_addr[28:0]">
+                        <Signal>capture/ddr_rd/ddr_rd_addr[28]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[27]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[26]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[25]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[24]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[23]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[22]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[21]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[20]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[19]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[18]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[17]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[16]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[15]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[14]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[13]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[12]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[11]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[10]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[9]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[8]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[7]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[6]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[5]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[4]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[3]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[2]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[1]</Signal>
+                        <Signal>capture/ddr_rd/ddr_rd_addr[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000000000000000000001000" value1="00000000000000000000000000000" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0000110110001110</GAO_ID>
+</GAO_CONFIG>

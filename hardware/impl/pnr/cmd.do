@@ -1,0 +1,16 @@
+-d F:\2024FPGA\gbatang\impl\gwsynthesis\VexGBA.vg
+-p GW5AST-138B-PBGA484A-1
+-pn GW5AST-LV138PG484AC1/I0
+-cst F:\2024FPGA\gbatang\src\m138k\m138k.cst
+-cfg F:\2024FPGA\gbatang\impl\pnr\device.cfg
+-sdc F:\2024FPGA\gbatang\src\gbatang.sdc
+-gao_crc 1000011100001111
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-place_option 2
+-correct_hold 1
+-route_maxfan 23
+-rtl_gao

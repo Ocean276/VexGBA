@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="DDR_rd_fifo" Register="64" Alu="15" Lut="277" Bsram="8"/>

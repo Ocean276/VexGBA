@@ -1,0 +1,3460 @@
+[
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+  "InstLine" : 1,
+  "InstName" : "VexGBA",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+  "ModuleLine" : 1,
+  "ModuleName" : "VexGBA",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 94,
+    "InstName" : "pll27",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/m138k/pll_27.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "pll_27"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 100,
+    "InstName" : "pll33",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/m138k/pll_33.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "pll_33"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 101,
+    "InstName" : "pll74",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/m138k/pll_74.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "pll_74"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 114,
+    "InstName" : "GMII_pll",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/GMII_pll/GMII_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "GMII_pll"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 173,
+    "InstName" : "cpu",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/cpu/gba_cpu.v",
+    "ModuleLine" : 51,
+    "ModuleName" : "gba_cpu",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_cpu.v",
+      "InstLine" : 200,
+      "InstName" : "thumb_decoder",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/cpu/gba_cpu_thumbdecoder.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "ThumbDecoder"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 234,
+    "InstName" : "gpu",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "gba_gpu",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu.v",
+      "InstLine" : 108,
+      "InstName" : "igba_gpu_timing",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_gpu_timing",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 59,
+        "InstName" : "iREG_DISPSTAT_V_Blank_flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 60,
+        "InstName" : "iREG_DISPSTAT_H_Blank_flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 61,
+        "InstName" : "iREG_DISPSTAT_V_Counter_flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 62,
+        "InstName" : "iREG_DISPSTAT_V_Blank_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 63,
+        "InstName" : "iREG_DISPSTAT_H_Blank_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 64,
+        "InstName" : "iREG_DISPSTAT_V_Counter_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 65,
+        "InstName" : "iREG_DISPSTAT_V_Count_Setting",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+        "InstLine" : 66,
+        "InstName" : "iREG_VCOUNT",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu.v",
+      "InstLine" : 142,
+      "InstName" : "drawer",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "gba_gpu_drawer",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 559,
+        "InstName" : "iREG_DISPCNT_BG_Mode",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 560,
+        "InstName" : "iREG_DISPCNT_Reserved_CGB_Mode",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 561,
+        "InstName" : "iREG_DISPCNT_Display_Frame_Select",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 562,
+        "InstName" : "iREG_DISPCNT_H_Blank_IntervalFree",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 563,
+        "InstName" : "iREG_DISPCNT_OBJ_Char_VRAM_Map",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 564,
+        "InstName" : "iREG_DISPCNT_Forced_Blank",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 565,
+        "InstName" : "iREG_DISPCNT_Screen_Display_BG0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 566,
+        "InstName" : "iREG_DISPCNT_Screen_Display_BG1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 567,
+        "InstName" : "iREG_DISPCNT_Screen_Display_BG2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 568,
+        "InstName" : "iREG_DISPCNT_Screen_Display_BG3",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 569,
+        "InstName" : "iREG_DISPCNT_Screen_Display_OBJ",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 570,
+        "InstName" : "iREG_DISPCNT_Window_0_Display_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 571,
+        "InstName" : "iREG_DISPCNT_Window_1_Display_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 572,
+        "InstName" : "iREG_DISPCNT_OBJ_Wnd_Display_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 573,
+        "InstName" : "iREG_GREENSWAP",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 575,
+        "InstName" : "iREG_BG0CNT_BG_Priority",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 576,
+        "InstName" : "iREG_BG0CNT_Character_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 577,
+        "InstName" : "iREG_BG0CNT_UNUSED_4_5",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 578,
+        "InstName" : "iREG_BG0CNT_Mosaic",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 579,
+        "InstName" : "iREG_BG0CNT_Colors_Palettes",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 580,
+        "InstName" : "iREG_BG0CNT_Screen_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 581,
+        "InstName" : "iREG_BG0CNT_Screen_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 583,
+        "InstName" : "iREG_BG1CNT_BG_Priority",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 584,
+        "InstName" : "iREG_BG1CNT_Character_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 585,
+        "InstName" : "iREG_BG1CNT_UNUSED_4_5",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 586,
+        "InstName" : "iREG_BG1CNT_Mosaic",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 587,
+        "InstName" : "iREG_BG1CNT_Colors_Palettes",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 588,
+        "InstName" : "iREG_BG1CNT_Screen_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 589,
+        "InstName" : "iREG_BG1CNT_Screen_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 591,
+        "InstName" : "iREG_BG2CNT_BG_Priority",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 592,
+        "InstName" : "iREG_BG2CNT_Character_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 593,
+        "InstName" : "iREG_BG2CNT_UNUSED_4_5",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 594,
+        "InstName" : "iREG_BG2CNT_Mosaic",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 595,
+        "InstName" : "iREG_BG2CNT_Colors_Palettes",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 596,
+        "InstName" : "iREG_BG2CNT_Screen_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 597,
+        "InstName" : "iREG_BG2CNT_Display_Area_Overflow",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 598,
+        "InstName" : "iREG_BG2CNT_Screen_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 600,
+        "InstName" : "iREG_BG3CNT_BG_Priority",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 601,
+        "InstName" : "iREG_BG3CNT_Character_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 602,
+        "InstName" : "iREG_BG3CNT_UNUSED_4_5",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 603,
+        "InstName" : "iREG_BG3CNT_Mosaic",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 604,
+        "InstName" : "iREG_BG3CNT_Colors_Palettes",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 605,
+        "InstName" : "iREG_BG3CNT_Screen_Base_Block",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 606,
+        "InstName" : "iREG_BG3CNT_Display_Area_Overflow",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 607,
+        "InstName" : "iREG_BG3CNT_Screen_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 609,
+        "InstName" : "iREG_BG0HOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 610,
+        "InstName" : "iREG_BG0VOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 611,
+        "InstName" : "iREG_BG1HOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 612,
+        "InstName" : "iREG_BG1VOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 613,
+        "InstName" : "iREG_BG2HOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 614,
+        "InstName" : "iREG_BG2VOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 615,
+        "InstName" : "iREG_BG3HOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 616,
+        "InstName" : "iREG_BG3VOFS",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 621,
+        "InstName" : "iREG_BG2RotScaleParDX",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 622,
+        "InstName" : "iREG_BG2RotScaleParDMX",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 623,
+        "InstName" : "iREG_BG2RotScaleParDY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 624,
+        "InstName" : "iREG_BG2RotScaleParDMY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 625,
+        "InstName" : "iREG_BG2RefX",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 626,
+        "InstName" : "iREG_BG2RefY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 628,
+        "InstName" : "iREG_BG3RotScaleParDX",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 629,
+        "InstName" : "iREG_BG3RotScaleParDMX",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 630,
+        "InstName" : "iREG_BG3RotScaleParDY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 631,
+        "InstName" : "iREG_BG3RotScaleParDMY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 632,
+        "InstName" : "iREG_BG3RefX",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 633,
+        "InstName" : "iREG_BG3RefY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 649,
+        "InstName" : "iREG_WIN0H_X2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 650,
+        "InstName" : "iREG_WIN0H_X1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 652,
+        "InstName" : "iREG_WIN1H_X2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 653,
+        "InstName" : "iREG_WIN1H_X1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 655,
+        "InstName" : "iREG_WIN0V_Y2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 656,
+        "InstName" : "iREG_WIN0V_Y1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 658,
+        "InstName" : "iREG_WIN1V_Y2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 659,
+        "InstName" : "iREG_WIN1V_Y1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 661,
+        "InstName" : "iREG_WININ_Window_0_BG0_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 662,
+        "InstName" : "iREG_WININ_Window_0_BG1_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 663,
+        "InstName" : "iREG_WININ_Window_0_BG2_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 664,
+        "InstName" : "iREG_WININ_Window_0_BG3_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 665,
+        "InstName" : "iREG_WININ_Window_0_OBJ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 666,
+        "InstName" : "iREG_WININ_Window_0_Special_Effect",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 667,
+        "InstName" : "iREG_WININ_Window_1_BG0_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 668,
+        "InstName" : "iREG_WININ_Window_1_BG1_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 669,
+        "InstName" : "iREG_WININ_Window_1_BG2_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 670,
+        "InstName" : "iREG_WININ_Window_1_BG3_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 671,
+        "InstName" : "iREG_WININ_Window_1_OBJ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 672,
+        "InstName" : "iREG_WININ_Window_1_Special_Effect",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 674,
+        "InstName" : "iREG_WINOUT_Outside_BG0_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 675,
+        "InstName" : "iREG_WINOUT_Outside_BG1_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 676,
+        "InstName" : "iREG_WINOUT_Outside_BG2_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 677,
+        "InstName" : "iREG_WINOUT_Outside_BG3_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 678,
+        "InstName" : "iREG_WINOUT_Outside_OBJ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 679,
+        "InstName" : "iREG_WINOUT_Outside_Special_Effect",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 680,
+        "InstName" : "iREG_WINOUT_Objwnd_BG0_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 681,
+        "InstName" : "iREG_WINOUT_Objwnd_BG1_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 682,
+        "InstName" : "iREG_WINOUT_Objwnd_BG2_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 683,
+        "InstName" : "iREG_WINOUT_Objwnd_BG3_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 684,
+        "InstName" : "iREG_WINOUT_Objwnd_OBJ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 685,
+        "InstName" : "iREG_WINOUT_Objwnd_Special_Effect",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 687,
+        "InstName" : "iREG_MOSAIC_BG_Mosaic_H_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 688,
+        "InstName" : "iREG_MOSAIC_BG_Mosaic_V_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 689,
+        "InstName" : "iREG_MOSAIC_OBJ_Mosaic_H_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 690,
+        "InstName" : "iREG_MOSAIC_OBJ_Mosaic_V_Size",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 692,
+        "InstName" : "iREG_BLDCNT_BG0_1st_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 693,
+        "InstName" : "iREG_BLDCNT_BG1_1st_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 694,
+        "InstName" : "iREG_BLDCNT_BG2_1st_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 695,
+        "InstName" : "iREG_BLDCNT_BG3_1st_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 696,
+        "InstName" : "iREG_BLDCNT_OBJ_1st_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 697,
+        "InstName" : "iREG_BLDCNT_BD_1st_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 698,
+        "InstName" : "iREG_BLDCNT_Color_Special_Effect",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 699,
+        "InstName" : "iREG_BLDCNT_BG0_2nd_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 700,
+        "InstName" : "iREG_BLDCNT_BG1_2nd_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 701,
+        "InstName" : "iREG_BLDCNT_BG2_2nd_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 702,
+        "InstName" : "iREG_BLDCNT_BG3_2nd_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 703,
+        "InstName" : "iREG_BLDCNT_OBJ_2nd_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 704,
+        "InstName" : "iREG_BLDCNT_BD_2nd_Target_Pixel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 706,
+        "InstName" : "iREG_BLDALPHA_EVA_Coefficient",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 707,
+        "InstName" : "iREG_BLDALPHA_EVB_Coefficient",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 709,
+        "InstName" : "iREG_BLDY",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 812,
+        "InstName" : "ivram_lo",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/vram_lo.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "vram_lo"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 823,
+        "InstName" : "ivram_hi",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/vram_hi.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "vram_hi"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 861,
+        "InstName" : "oamram",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 878,
+        "InstName" : "oamram_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 894,
+        "InstName" : "oamram_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 910,
+        "InstName" : "paletteram_bg",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 926,
+        "InstName" : "paletteram_oam",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 942,
+        "InstName" : "paletteram_oam_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 958,
+        "InstName" : "paletteram_oam_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram32_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 973,
+        "InstName" : "igba_drawer_mode0_0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode0.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode0"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1001,
+        "InstName" : "igba_drawer_mode0_1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode0.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode0"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1029,
+        "InstName" : "igba_drawer_mode0_2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode0.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode0"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1057,
+        "InstName" : "igba_drawer_mode0_3",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode0.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode0"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1085,
+        "InstName" : "igba_drawer_mode2_2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode2"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1113,
+        "InstName" : "igba_drawer_mode2_2_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode2"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1141,
+        "InstName" : "igba_drawer_mode2_2_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode2"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1170,
+        "InstName" : "igba_drawer_mode2_3",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode2"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1198,
+        "InstName" : "igba_drawer_mode2_3_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode2"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1226,
+        "InstName" : "igba_drawer_mode2_3_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode2"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1255,
+        "InstName" : "igba_drawer_mode345",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode345.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_mode345"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1285,
+        "InstName" : "igba_drawer_obj",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_obj.sv",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_obj"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1321,
+        "InstName" : "igba_drawer_obj_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_obj.sv",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_obj"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1357,
+        "InstName" : "igba_drawer_obj_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_obj.sv",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_obj"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1646,
+        "InstName" : "ilinebuffer_bg0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1664,
+        "InstName" : "ilinebuffer_bg1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1682,
+        "InstName" : "ilinebuffer_bg2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1700,
+        "InstName" : "ilinebuffer_bg2_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1718,
+        "InstName" : "ilinebuffer_bg2_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1736,
+        "InstName" : "ilinebuffer_bg3",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1754,
+        "InstName" : "ilinebuffer_bg3_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1772,
+        "InstName" : "ilinebuffer_bg3_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1790,
+        "InstName" : "ilinebuffer_obj_color",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1808,
+        "InstName" : "ilinebuffer_obj_color_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1826,
+        "InstName" : "ilinebuffer_obj_color_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1845,
+        "InstName" : "ilinebuffer_obj_settings",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1863,
+        "InstName" : "ilinebuffer_obj_settings_hd0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 1881,
+        "InstName" : "ilinebuffer_obj_settings_hd1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "dpram_block"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 2078,
+        "InstName" : "igba_drawer_merge",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_merge.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_merge"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+        "InstLine" : 2160,
+        "InstName" : "igba_drawer_merge2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_merge.v",
+        "ModuleLine" : 2,
+        "ModuleName" : "gba_drawer_merge"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu.v",
+      "InstLine" : 210,
+      "InstName" : "igba_gpu_colorshade",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_colorshade.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_gpu_colorshade"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu.v",
+      "InstLine" : 231,
+      "InstName" : "igba_gpu_colorshade2",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_colorshade.sv",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_gpu_colorshade"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 277,
+    "InstName" : "sound",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "gba_sound",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 100,
+      "InstName" : "iSound_1_4_Master_Volume_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 101,
+      "InstName" : "iSound_1_4_Master_Volume_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 102,
+      "InstName" : "iSound_1_Enable_Flags_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 103,
+      "InstName" : "iSound_2_Enable_Flags_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 104,
+      "InstName" : "iSound_3_Enable_Flags_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 105,
+      "InstName" : "iSound_4_Enable_Flags_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 106,
+      "InstName" : "iSound_1_Enable_Flags_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 107,
+      "InstName" : "iSound_2_Enable_Flags_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 108,
+      "InstName" : "iSound_3_Enable_Flags_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 109,
+      "InstName" : "iSound_4_Enable_Flags_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 111,
+      "InstName" : "iSound_1_4_Volume",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 112,
+      "InstName" : "iDMA_Sound_A_Volume",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 113,
+      "InstName" : "iDMA_Sound_B_Volume",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 114,
+      "InstName" : "iDMA_Sound_A_Enable_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 115,
+      "InstName" : "iDMA_Sound_A_Enable_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 116,
+      "InstName" : "iDMA_Sound_A_Timer_Select",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 117,
+      "InstName" : "iDMA_Sound_A_Reset_FIFO",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 118,
+      "InstName" : "iDMA_Sound_B_Enable_RIGHT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 119,
+      "InstName" : "iDMA_Sound_B_Enable_LEFT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 120,
+      "InstName" : "iDMA_Sound_B_Timer_Select",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 121,
+      "InstName" : "iDMA_Sound_B_Reset_FIFO",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 123,
+      "InstName" : "iSound_1_ON_flag",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 124,
+      "InstName" : "iSound_2_ON_flag",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 125,
+      "InstName" : "iSound_3_ON_flag",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 126,
+      "InstName" : "iSound_4_ON_flag",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 127,
+      "InstName" : "iPSG_FIFO_Master_Enable",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 129,
+      "InstName" : "iREG_SOUNDBIAS",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 131,
+      "InstName" : "iSOUNDCNT_XHighZero",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 132,
+      "InstName" : "iSOUNDBIAS_HighZero",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 191,
+      "InstName" : "igba_sound_ch1",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "gba_sound_ch1",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 79,
+        "InstName" : "gsweep.iReg_Channel_Number_of_sweep_shift",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 80,
+        "InstName" : "gsweep.iReg_Channel_Sweep_Frequency_Direction",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 81,
+        "InstName" : "gsweep.iReg_Channel_Sweep_Time",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 85,
+        "InstName" : "iReg_Channel_Sound_length",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 86,
+        "InstName" : "iReg_Channel_Wave_Pattern_Duty",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 87,
+        "InstName" : "iReg_Channel_Envelope_Step_Time",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 88,
+        "InstName" : "iReg_Channel_Envelope_Direction",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 89,
+        "InstName" : "iReg_Channel_Initial_Volume_of_envelope",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 91,
+        "InstName" : "iReg_Channel_Frequency",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 92,
+        "InstName" : "iReg_Channel_Length_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 93,
+        "InstName" : "iReg_Channel_Initial",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 94,
+        "InstName" : "iReg_Channel_HighZero",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 214,
+      "InstName" : "igba_sound_ch2",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "gba_sound_ch1",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 85,
+        "InstName" : "iReg_Channel_Sound_length",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 86,
+        "InstName" : "iReg_Channel_Wave_Pattern_Duty",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 87,
+        "InstName" : "iReg_Channel_Envelope_Step_Time",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 88,
+        "InstName" : "iReg_Channel_Envelope_Direction",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 89,
+        "InstName" : "iReg_Channel_Initial_Volume_of_envelope",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 91,
+        "InstName" : "iReg_Channel_Frequency",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 92,
+        "InstName" : "iReg_Channel_Length_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 93,
+        "InstName" : "iReg_Channel_Initial",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+        "InstLine" : 94,
+        "InstName" : "iReg_Channel_HighZero",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 223,
+      "InstName" : "igba_sound_ch3",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_sound_ch3",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 67,
+        "InstName" : "iREG_SOUND3CNT_L_Wave_RAM_Dimension",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 68,
+        "InstName" : "iREG_SOUND3CNT_L_Wave_RAM_Bank_Number",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 69,
+        "InstName" : "iREG_SOUND3CNT_L_Sound_Channel_3_Off",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 70,
+        "InstName" : "iREG_SOUND3CNT_H_Sound_length",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 71,
+        "InstName" : "iREG_SOUND3CNT_H_Sound_Volume",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 72,
+        "InstName" : "iREG_SOUND3CNT_H_Force_Volume",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 74,
+        "InstName" : "iREG_SOUND3CNT_X_Sample_Rate",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 75,
+        "InstName" : "iREG_SOUND3CNT_X_Length_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 76,
+        "InstName" : "iREG_SOUND3CNT_X_Initial",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 77,
+        "InstName" : "iREG_SOUND3CNT_XHighZero",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 79,
+        "InstName" : "iREG_WAVE_RAM",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 80,
+        "InstName" : "iREG_WAVE_RAM2",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 81,
+        "InstName" : "iREG_WAVE_RAM3",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+        "InstLine" : 82,
+        "InstName" : "iREG_WAVE_RAM4",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 232,
+      "InstName" : "igba_sound_ch4",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+      "ModuleLine" : 3,
+      "ModuleName" : "gba_sound_ch4",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 55,
+        "InstName" : "iREG_Sound_length",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 56,
+        "InstName" : "iREG_Envelope_Step_Time",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 57,
+        "InstName" : "iREG_Envelope_Direction",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 58,
+        "InstName" : "iREG_Initial_Volume_of_envelope",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 60,
+        "InstName" : "iREG_Dividing_Ratio_of_Freq",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 61,
+        "InstName" : "iREG_Counter_Step_Width",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 62,
+        "InstName" : "iREG_Shift_Clock_Frequency",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 63,
+        "InstName" : "iREG_Length_Flag",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 64,
+        "InstName" : "iREG_Initial",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 66,
+        "InstName" : "iSOUND4CNT_LHighZero",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+        "InstLine" : 67,
+        "InstName" : "iSOUND4CNT_HHighZero",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 241,
+      "InstName" : "igba_sound_dmaA",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_sound_dma",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v",
+        "InstLine" : 46,
+        "InstName" : "iFIFO_REGISTER",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+      "InstLine" : 265,
+      "InstName" : "igba_sound_dmaB",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_sound_dma",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v",
+        "InstLine" : 46,
+        "InstName" : "iFIFO_REGISTER",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 306,
+    "InstName" : "clk_6p25m",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/gowin_pll_6p25/gowin_pll_6p25.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "clk_6p25m"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 311,
+    "InstName" : "clk_1p526m",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "clk_1p526m"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 317,
+    "InstName" : "Audio_SDPB",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/gowin_sdpb/gowin_sdpb.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Audio_SDPB"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 331,
+    "InstName" : "u_audio_drive_0",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/audio_drive.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "audio_drive"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 386,
+    "InstName" : "mem",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_memory.sv",
+    "ModuleLine" : 59,
+    "ModuleName" : "gba_memory",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_memory.sv",
+      "InstLine" : 676,
+      "InstName" : "iwram",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/mem_iwram.v",
+      "ModuleLine" : 10,
+      "ModuleName" : "mem_iwram"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_memory.sv",
+      "InstLine" : 742,
+      "InstName" : "eeprom",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_eeprom.sv",
+      "ModuleLine" : 32,
+      "ModuleName" : "gba_eeprom",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_eeprom.sv",
+        "InstLine" : 71,
+        "InstName" : "m_eeprom",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/mem_eeprom.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "mem_eeprom"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 427,
+    "InstName" : "sdram",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/sdram_gba.v",
+    "ModuleLine" : 45,
+    "ModuleName" : "sdram_gba"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 448,
+    "InstName" : "rv_adapt",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/rv_sdram_adapter.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "rv_sdram_adapter"
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 463,
+    "InstName" : "intr",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+    "ModuleLine" : 5,
+    "ModuleName" : "gba_interrupts",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 31,
+      "InstName" : "iREG_IRP_IE",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 32,
+      "InstName" : "iREG_IRP_IF",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 33,
+      "InstName" : "iREG_WAITCNT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 34,
+      "InstName" : "iREG_ISCGB",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 35,
+      "InstName" : "iREG_IME",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 36,
+      "InstName" : "iREG_POSTFLG",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+      "InstLine" : 37,
+      "InstName" : "iREG_HALTCNT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 475,
+    "InstName" : "dma",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "gba_dma",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma.v",
+      "InstLine" : 93,
+      "InstName" : "igba_dma_module0",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "gba_dma_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 112,
+        "InstName" : "iSAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 113,
+        "InstName" : "iDAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 114,
+        "InstName" : "iCNT_L",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 115,
+        "InstName" : "iCNT_H_Dest_Addr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 116,
+        "InstName" : "iCNT_H_Source_Adr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 117,
+        "InstName" : "iCNT_H_DMA_Repeat",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 118,
+        "InstName" : "iCNT_H_DMA_Transfer_Type",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 119,
+        "InstName" : "iCNT_H_DMA_start_timing",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 120,
+        "InstName" : "iCNT_H_IRQ_on",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 121,
+        "InstName" : "iCNT_H_DMA_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma.v",
+      "InstLine" : 143,
+      "InstName" : "igba_dma_module1",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "gba_dma_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 112,
+        "InstName" : "iSAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 113,
+        "InstName" : "iDAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 114,
+        "InstName" : "iCNT_L",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 115,
+        "InstName" : "iCNT_H_Dest_Addr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 116,
+        "InstName" : "iCNT_H_Source_Adr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 117,
+        "InstName" : "iCNT_H_DMA_Repeat",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 118,
+        "InstName" : "iCNT_H_DMA_Transfer_Type",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 119,
+        "InstName" : "iCNT_H_DMA_start_timing",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 120,
+        "InstName" : "iCNT_H_IRQ_on",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 121,
+        "InstName" : "iCNT_H_DMA_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma.v",
+      "InstLine" : 193,
+      "InstName" : "igba_dma_module2",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "gba_dma_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 112,
+        "InstName" : "iSAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 113,
+        "InstName" : "iDAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 114,
+        "InstName" : "iCNT_L",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 115,
+        "InstName" : "iCNT_H_Dest_Addr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 116,
+        "InstName" : "iCNT_H_Source_Adr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 117,
+        "InstName" : "iCNT_H_DMA_Repeat",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 118,
+        "InstName" : "iCNT_H_DMA_Transfer_Type",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 119,
+        "InstName" : "iCNT_H_DMA_start_timing",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 120,
+        "InstName" : "iCNT_H_IRQ_on",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 121,
+        "InstName" : "iCNT_H_DMA_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma.v",
+      "InstLine" : 243,
+      "InstName" : "igba_dma_module3",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+      "ModuleLine" : 1,
+      "ModuleName" : "gba_dma_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 108,
+        "InstName" : "iCNT_H_Game_Pak_DRQ",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 112,
+        "InstName" : "iSAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 113,
+        "InstName" : "iDAD",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 114,
+        "InstName" : "iCNT_L",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 115,
+        "InstName" : "iCNT_H_Dest_Addr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 116,
+        "InstName" : "iCNT_H_Source_Adr_Control",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 117,
+        "InstName" : "iCNT_H_DMA_Repeat",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 118,
+        "InstName" : "iCNT_H_DMA_Transfer_Type",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 119,
+        "InstName" : "iCNT_H_DMA_start_timing",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 120,
+        "InstName" : "iCNT_H_IRQ_on",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+        "InstLine" : 121,
+        "InstName" : "iCNT_H_DMA_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 491,
+    "InstName" : "timer",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "gba_timer",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer.v",
+      "InstLine" : 26,
+      "InstName" : "igba_timer_module0",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_timer_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 45,
+        "InstName" : "iL_Counter_Reload",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 46,
+        "InstName" : "iH_Prescaler",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 47,
+        "InstName" : "iH_Count_up",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 48,
+        "InstName" : "iH_Timer_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer.v",
+      "InstLine" : 38,
+      "InstName" : "igba_timer_module1",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_timer_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 45,
+        "InstName" : "iL_Counter_Reload",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 46,
+        "InstName" : "iH_Prescaler",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 47,
+        "InstName" : "iH_Count_up",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 48,
+        "InstName" : "iH_Timer_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer.v",
+      "InstLine" : 50,
+      "InstName" : "igba_timer_module2",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_timer_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 45,
+        "InstName" : "iL_Counter_Reload",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 46,
+        "InstName" : "iH_Prescaler",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 47,
+        "InstName" : "iH_Count_up",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 48,
+        "InstName" : "iH_Timer_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer.v",
+      "InstLine" : 62,
+      "InstName" : "igba_timer_module3",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+      "ModuleLine" : 2,
+      "ModuleName" : "gba_timer_module",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 45,
+        "InstName" : "iL_Counter_Reload",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 46,
+        "InstName" : "iH_Prescaler",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 47,
+        "InstName" : "iH_Count_up",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+        "InstLine" : 48,
+        "InstName" : "iH_Timer_IRQ_Enable",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+        "ModuleLine" : 8,
+        "ModuleName" : "eProcReg_gba"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 503,
+    "InstName" : "ds2",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/peripherals/controller_ds2.sv",
+    "ModuleLine" : 3,
+    "ModuleName" : "controller_ds2",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/peripherals/controller_ds2.sv",
+      "InstLine" : 28,
+      "InstName" : "ds",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+      "ModuleLine" : 46,
+      "ModuleName" : "dualshock_controller",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+        "InstLine" : 93,
+        "InstName" : "pls",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+        "ModuleLine" : 144,
+        "ModuleName" : "ps_pls_gan"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+        "InstLine" : 100,
+        "InstName" : "txd",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+        "ModuleLine" : 262,
+        "ModuleName" : "ps_txd"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+        "InstLine" : 105,
+        "InstName" : "rxd",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+        "ModuleLine" : 237,
+        "ModuleName" : "ps_rxd"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 508,
+    "InstName" : "joypad",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/peripherals/gba_joypad.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "gba_joypad",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/peripherals/gba_joypad.v",
+      "InstLine" : 45,
+      "InstName" : "iReg_KEYINPUT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/peripherals/gba_joypad.v",
+      "InstLine" : 46,
+      "InstName" : "iReg_KEYCNT",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+      "ModuleLine" : 8,
+      "ModuleName" : "eProcReg_gba"
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 527,
+    "InstName" : "video",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/gba2hdmi.sv",
+    "ModuleLine" : 4,
+    "ModuleName" : "gba2hdmi",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/gba2hdmi.sv",
+      "InstLine" : 244,
+      "InstName" : "hdmi",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+      "ModuleLine" : 4,
+      "ModuleName" : "hdmi",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+        "InstLine" : 316,
+        "InstName" : "true_hdmi_output.packet_picker",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+        "ModuleLine" : 4,
+        "ModuleName" : "packet_picker",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+          "InstLine" : 51,
+          "InstName" : "audio_clock_regeneration_packet",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/audio_clock_regeneration_packet.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "audio_clock_regeneration_packet"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+          "InstLine" : 135,
+          "InstName" : "audio_sample_packet",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/audio_sample_packet.sv",
+          "ModuleLine" : 8,
+          "ModuleName" : "audio_sample_packet"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+          "InstLine" : 141,
+          "InstName" : "auxiliary_video_information_info_frame",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/auxiliary_video_information_info_frame.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "auxiliary_video_information_info_frame"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+          "InstLine" : 144,
+          "InstName" : "source_product_description_info_frame",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/source_product_description_info_frame.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "source_product_description_info_frame"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+          "InstLine" : 147,
+          "InstName" : "audio_info_frame",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/audio_info_frame.sv",
+          "ModuleLine" : 5,
+          "ModuleName" : "audio_info_frame"
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+        "InstLine" : 318,
+        "InstName" : "true_hdmi_output.packet_assembler",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/packet_assembler.sv",
+        "ModuleLine" : 4,
+        "ModuleName" : "packet_assembler"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+        "InstLine" : 369,
+        "InstName" : "tmds_gen[0].tmds_channel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/tmds_channel.sv",
+        "ModuleLine" : 4,
+        "ModuleName" : "tmds_channel"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+        "InstLine" : 369,
+        "InstName" : "tmds_gen[1].tmds_channel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/tmds_channel.sv",
+        "ModuleLine" : 4,
+        "ModuleName" : "tmds_channel"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+        "InstLine" : 369,
+        "InstName" : "tmds_gen[2].tmds_channel",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/tmds_channel.sv",
+        "ModuleLine" : 4,
+        "ModuleName" : "tmds_channel"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+        "InstLine" : 373,
+        "InstName" : "serializer",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/hdmi/serializer.sv",
+        "ModuleLine" : 3,
+        "ModuleName" : "serializer"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 546,
+    "InstName" : "iosys",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "iosys",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+      "InstLine" : 215,
+      "InstName" : "Briey",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "Briey",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 401,
+        "InstName" : "io_asyncReset_buffercc",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 8928,
+        "ModuleName" : "BufferCC"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 406,
+        "InstName" : "axi_ram",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 8566,
+        "ModuleName" : "Axi4SharedOnChipRam"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 433,
+        "InstName" : "axi_axi_Lite",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 8340,
+        "ModuleName" : "PPU"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 468,
+        "InstName" : "axi_core_cpu",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 3195,
+        "ModuleName" : "VexRiscv",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 4706,
+          "InstName" : "IBusCachedPlugin_cache",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 10245,
+          "ModuleName" : "InstructionCache"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 4750,
+          "InstName" : "dataCache_1",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9391,
+          "ModuleName" : "DataCache"
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 503,
+        "InstName" : "io_coreInterrupt_buffercc",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 3176,
+        "ModuleName" : "BufferCC_1"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 509,
+        "InstName" : "jtagBridge_1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 2448,
+        "ModuleName" : "JtagBridge",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 2576,
+          "InstName" : "flowCCUnsafeByToggle_1",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9319,
+          "ModuleName" : "FlowCCUnsafeByToggle",
+          "SubInsts" : [
+           {
+            "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+            "InstLine" : 9344,
+            "InstName" : "inputArea_target_buffercc",
+            "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+            "ModuleLine" : 10640,
+            "ModuleName" : "BufferCC_2"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 525,
+        "InstName" : "systemDebugger_1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 2361,
+        "ModuleName" : "SystemDebugger"
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 545,
+        "InstName" : "axi4ReadOnlyDecoder_1",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 2178,
+        "ModuleName" : "Axi4ReadOnlyDecoder",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 2247,
+          "InstName" : "errorSlave",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9260,
+          "ModuleName" : "Axi4ReadOnlyErrorSlave"
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 585,
+        "InstName" : "dbus_axi_decoder",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 1854,
+        "ModuleName" : "Axi4SharedDecoder",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 1977,
+          "InstName" : "errorSlave",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9171,
+          "ModuleName" : "Axi4SharedErrorSlave"
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 652,
+        "InstName" : "axi_ram_io_axi_arbiter",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 1526,
+        "ModuleName" : "Axi4SharedArbiter",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 1675,
+          "InstName" : "cmdArbiter",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9077,
+          "ModuleName" : "StreamArbiter_1"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 1705,
+          "InstName" : "cmdRouteFork_thrown_translated_fifo",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9042,
+          "ModuleName" : "StreamFifoLowLatency_1",
+          "SubInsts" : [
+           {
+            "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+            "InstLine" : 9059,
+            "InstName" : "fifo",
+            "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+            "ModuleLine" : 10546,
+            "ModuleName" : "StreamFifo_1"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "InstLine" : 715,
+        "InstName" : "axi_axi_Lite_io_axi_arbiter",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+        "ModuleLine" : 1198,
+        "ModuleName" : "Axi4SharedArbiter_1",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 1347,
+          "InstName" : "cmdArbiter",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 8948,
+          "ModuleName" : "StreamArbiter"
+         },
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "InstLine" : 1377,
+          "InstName" : "cmdRouteFork_thrown_translated_fifo",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+          "ModuleLine" : 9042,
+          "ModuleName" : "StreamFifoLowLatency_1",
+          "SubInsts" : [
+           {
+            "InstFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+            "InstLine" : 9059,
+            "InstName" : "fifo",
+            "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+            "ModuleLine" : 10546,
+            "ModuleName" : "StreamFifo_1"
+           }
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+      "InstLine" : 234,
+      "InstName" : "apb2custom",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/apb2custom.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "apb2custom"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+      "InstLine" : 304,
+      "InstName" : "disp",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/textdisp.v",
+      "ModuleLine" : 4,
+      "ModuleName" : "textdisp",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/textdisp.v",
+        "InstLine" : 50,
+        "InstName" : "menu_mem",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/gowin_dpb_menu.v",
+        "ModuleLine" : 10,
+        "ModuleName" : "gowin_dpb_menu"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+      "InstLine" : 329,
+      "InstName" : "simpleuart",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/simpleuart.v",
+      "ModuleLine" : 20,
+      "ModuleName" : "simpleuart"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+      "InstLine" : 351,
+      "InstName" : "simplespi",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/simplespimaster.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "simplespimaster",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/simplespimaster.v",
+        "InstLine" : 47,
+        "InstName" : "spi_io_master",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/spi_master.v",
+        "ModuleLine" : 33,
+        "ModuleName" : "SPI_Master"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+      "InstLine" : 394,
+      "InstName" : "flash",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/spiflash.v",
+      "ModuleLine" : 13,
+      "ModuleName" : "spiflash",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/iosys/spiflash.v",
+        "InstLine" : 57,
+        "InstName" : "spi",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/spi_master.v",
+        "ModuleLine" : 33,
+        "ModuleName" : "SPI_Master"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+    "InstLine" : 579,
+    "InstName" : "capture",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/capture/capture.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "capture",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/capture/capture.v",
+      "InstLine" : 26,
+      "InstName" : "ddr_wr",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/capture/ddr_wr.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "ddr_wr"
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/capture/capture.v",
+      "InstLine" : 43,
+      "InstName" : "pixel_udp_fifo",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/pixel_udp_fifo/pixel_udp_fifo.v",
+      "ModuleLine" : 599,
+      "ModuleName" : "pixel_udp_fifo",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/pixel_udp_fifo/pixel_udp_fifo.v",
+        "InstLine" : 622,
+        "InstName" : "fifo_inst",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/pixel_udp_fifo/pixel_udp_fifo.v",
+        "ModuleLine" : 1,
+        "ModuleName" : "~fifo.pixel_udp_fifo"
+       }
+      ]
+     },
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/capture/capture.v",
+      "InstLine" : 55,
+      "InstName" : "udp",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/capture/udp.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "udp",
+      "SubInsts" : [
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/capture/udp.v",
+        "InstLine" : 38,
+        "InstName" : "GMII_send_m0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/capture/GMII_send.sv",
+        "ModuleLine" : 1,
+        "ModuleName" : "GMII_send",
+        "SubInsts" : [
+         {
+          "InstFile" : "F:/2024FPGA/gbatang/src/capture/GMII_send.sv",
+          "InstLine" : 177,
+          "InstName" : "crc32_m0",
+          "ModuleFile" : "F:/2024FPGA/gbatang/src/capture/crc.v",
+          "ModuleLine" : 3,
+          "ModuleName" : "crc"
+         }
+        ]
+       },
+       {
+        "InstFile" : "F:/2024FPGA/gbatang/src/capture/udp.v",
+        "InstLine" : 58,
+        "InstName" : "GMII2RGMII_m0",
+        "ModuleFile" : "F:/2024FPGA/gbatang/src/GMII2RGMII/GMII2RGMII.v",
+        "ModuleLine" : 9,
+        "ModuleName" : "GMII2RGMII"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/capture/ddr_rd.v",
+  "InstLine" : 1,
+  "InstName" : "ddr_rd",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/capture/ddr_rd.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ddr_rd",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/capture/ddr_rd.v",
+    "InstLine" : 114,
+    "InstName" : "DDR_rd_fifo",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/DDR_rd_fifo/DDR_rd_fifo.v",
+    "ModuleLine" : 1196,
+    "ModuleName" : "DDR_rd_fifo",
+    "SubInsts" : [
+     {
+      "InstFile" : "F:/2024FPGA/gbatang/src/DDR_rd_fifo/DDR_rd_fifo.v",
+      "InstLine" : 1219,
+      "InstName" : "fifo_inst",
+      "ModuleFile" : "F:/2024FPGA/gbatang/src/DDR_rd_fifo/DDR_rd_fifo.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "~fifo.DDR_rd_fifo"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/common/dual_clk_fifo.v",
+  "InstLine" : 3,
+  "InstName" : "dual_clk_fifo",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/common/dual_clk_fifo.v",
+  "ModuleLine" : 3,
+  "ModuleName" : "dual_clk_fifo"
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/ddr3_memory_interface/ddr3_memory_interface.v",
+  "InstLine" : 31236,
+  "InstName" : "DDR3_Memory_Interface_Top",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/ddr3_memory_interface/ddr3_memory_interface.v",
+  "ModuleLine" : 31236,
+  "ModuleName" : "DDR3_Memory_Interface_Top",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "InstLine" : 31321,
+    "InstName" : "gw3_top",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/ddr3_memory_interface/ddr3_memory_interface.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~GW_DDR3_PHY_MC.DDR3_Memory_Interface_Top"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/fifo_top/fifo_top.v",
+  "InstLine" : 278,
+  "InstName" : "pixel_fifo",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/fifo_top/fifo_top.v",
+  "ModuleLine" : 278,
+  "ModuleName" : "pixel_fifo",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/2024FPGA/gbatang/src/fifo_top/fifo_top.v",
+    "InstLine" : 305,
+    "InstName" : "fifo_inst",
+    "ModuleFile" : "F:/2024FPGA/gbatang/src/fifo_top/fifo_top.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "~fifo.pixel_fifo"
+   }
+  ]
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/gowin_dpb/gowin_dpb.v",
+  "InstLine" : 10,
+  "InstName" : "Audio_DPB",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/gowin_dpb/gowin_dpb.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Audio_DPB"
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/gowin_pll/gowin_pll.v",
+  "InstLine" : 10,
+  "InstName" : "pll_ddr",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/gowin_pll/gowin_pll.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "pll_ddr"
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/iosys/axi2custom.v",
+  "InstLine" : 1,
+  "InstName" : "axi2custom",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/iosys/axi2custom.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "axi2custom"
+ },
+ {
+  "InstFile" : "F:/2024FPGA/gbatang/src/memory/gba_flash_sram.sv",
+  "InstLine" : 3,
+  "InstName" : "gba_flash_sram",
+  "ModuleFile" : "F:/2024FPGA/gbatang/src/memory/gba_flash_sram.sv",
+  "ModuleLine" : 3,
+  "ModuleName" : "gba_flash_sram"
+ }
+]

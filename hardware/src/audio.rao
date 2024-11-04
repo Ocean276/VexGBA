@@ -1,0 +1,130 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk_1p526m_w" trig_type="0" storage_depth="4096" window_num="1" capture_amount="4096" implementation="0" trigger_pos="0" module_name="gbatang_top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus capture_enable="true" name="sound_out_left_d1[15:0]">
+                <Signal>sound_out_left_d1[15]</Signal>
+                <Signal>sound_out_left_d1[14]</Signal>
+                <Signal>sound_out_left_d1[13]</Signal>
+                <Signal>sound_out_left_d1[12]</Signal>
+                <Signal>sound_out_left_d1[11]</Signal>
+                <Signal>sound_out_left_d1[10]</Signal>
+                <Signal>sound_out_left_d1[9]</Signal>
+                <Signal>sound_out_left_d1[8]</Signal>
+                <Signal>sound_out_left_d1[7]</Signal>
+                <Signal>sound_out_left_d1[6]</Signal>
+                <Signal>sound_out_left_d1[5]</Signal>
+                <Signal>sound_out_left_d1[4]</Signal>
+                <Signal>sound_out_left_d1[3]</Signal>
+                <Signal>sound_out_left_d1[2]</Signal>
+                <Signal>sound_out_left_d1[1]</Signal>
+                <Signal>sound_out_left_d1[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="q_w[15:0]">
+                <Signal>q_w[15]</Signal>
+                <Signal>q_w[14]</Signal>
+                <Signal>q_w[13]</Signal>
+                <Signal>q_w[12]</Signal>
+                <Signal>q_w[11]</Signal>
+                <Signal>q_w[10]</Signal>
+                <Signal>q_w[9]</Signal>
+                <Signal>q_w[8]</Signal>
+                <Signal>q_w[7]</Signal>
+                <Signal>q_w[6]</Signal>
+                <Signal>q_w[5]</Signal>
+                <Signal>q_w[4]</Signal>
+                <Signal>q_w[3]</Signal>
+                <Signal>q_w[2]</Signal>
+                <Signal>q_w[1]</Signal>
+                <Signal>q_w[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="din_i[31:0]">
+                <Signal>din_i[31]</Signal>
+                <Signal>din_i[30]</Signal>
+                <Signal>din_i[29]</Signal>
+                <Signal>din_i[28]</Signal>
+                <Signal>din_i[27]</Signal>
+                <Signal>din_i[26]</Signal>
+                <Signal>din_i[25]</Signal>
+                <Signal>din_i[24]</Signal>
+                <Signal>din_i[23]</Signal>
+                <Signal>din_i[22]</Signal>
+                <Signal>din_i[21]</Signal>
+                <Signal>din_i[20]</Signal>
+                <Signal>din_i[19]</Signal>
+                <Signal>din_i[18]</Signal>
+                <Signal>din_i[17]</Signal>
+                <Signal>din_i[16]</Signal>
+                <Signal>din_i[15]</Signal>
+                <Signal>din_i[14]</Signal>
+                <Signal>din_i[13]</Signal>
+                <Signal>din_i[12]</Signal>
+                <Signal>din_i[11]</Signal>
+                <Signal>din_i[10]</Signal>
+                <Signal>din_i[9]</Signal>
+                <Signal>din_i[8]</Signal>
+                <Signal>din_i[7]</Signal>
+                <Signal>din_i[6]</Signal>
+                <Signal>din_i[5]</Signal>
+                <Signal>din_i[4]</Signal>
+                <Signal>din_i[3]</Signal>
+                <Signal>din_i[2]</Signal>
+                <Signal>din_i[1]</Signal>
+                <Signal>din_i[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">HP_BCK</Signal>
+            <Signal capture_enable="true">HP_WS</Signal>
+            <Signal capture_enable="true">HP_DIN</Signal>
+            <Signal capture_enable="true">PA_EN</Signal>
+            <Signal capture_enable="true">adb_i</Signal>
+            <Signal capture_enable="true">cea_i</Signal>
+            <Signal capture_enable="true">req_w</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>iosys/apb2custom/resetn</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0000101011001001</GAO_ID>
+</GAO_CONFIG>

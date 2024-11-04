@@ -1,0 +1,390 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="capture/ddr_wr/clk_ddr" trig_type="0" storage_depth="2048" window_num="1" capture_amount="2048" implementation="0" trigger_pos="0" module_name="VexGBA" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus capture_enable="true" name="capture/ddr_wr/fifo_data_in[31:0]">
+                <Signal>capture/ddr_wr/fifo_data_in[31]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[30]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[29]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[28]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[27]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[26]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[25]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[24]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[23]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[22]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[21]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[20]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[19]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[18]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[17]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[16]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[15]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[14]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[13]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[12]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[11]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[10]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[9]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[8]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[7]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[6]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[5]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[4]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[3]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[2]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[1]</Signal>
+                <Signal>capture/ddr_wr/fifo_data_in[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="capture/ddr_wr/wr_data[255:0]">
+                <Signal>capture/ddr_wr/wr_data[255]</Signal>
+                <Signal>capture/ddr_wr/wr_data[254]</Signal>
+                <Signal>capture/ddr_wr/wr_data[253]</Signal>
+                <Signal>capture/ddr_wr/wr_data[252]</Signal>
+                <Signal>capture/ddr_wr/wr_data[251]</Signal>
+                <Signal>capture/ddr_wr/wr_data[250]</Signal>
+                <Signal>capture/ddr_wr/wr_data[249]</Signal>
+                <Signal>capture/ddr_wr/wr_data[248]</Signal>
+                <Signal>capture/ddr_wr/wr_data[247]</Signal>
+                <Signal>capture/ddr_wr/wr_data[246]</Signal>
+                <Signal>capture/ddr_wr/wr_data[245]</Signal>
+                <Signal>capture/ddr_wr/wr_data[244]</Signal>
+                <Signal>capture/ddr_wr/wr_data[243]</Signal>
+                <Signal>capture/ddr_wr/wr_data[242]</Signal>
+                <Signal>capture/ddr_wr/wr_data[241]</Signal>
+                <Signal>capture/ddr_wr/wr_data[240]</Signal>
+                <Signal>capture/ddr_wr/wr_data[239]</Signal>
+                <Signal>capture/ddr_wr/wr_data[238]</Signal>
+                <Signal>capture/ddr_wr/wr_data[237]</Signal>
+                <Signal>capture/ddr_wr/wr_data[236]</Signal>
+                <Signal>capture/ddr_wr/wr_data[235]</Signal>
+                <Signal>capture/ddr_wr/wr_data[234]</Signal>
+                <Signal>capture/ddr_wr/wr_data[233]</Signal>
+                <Signal>capture/ddr_wr/wr_data[232]</Signal>
+                <Signal>capture/ddr_wr/wr_data[231]</Signal>
+                <Signal>capture/ddr_wr/wr_data[230]</Signal>
+                <Signal>capture/ddr_wr/wr_data[229]</Signal>
+                <Signal>capture/ddr_wr/wr_data[228]</Signal>
+                <Signal>capture/ddr_wr/wr_data[227]</Signal>
+                <Signal>capture/ddr_wr/wr_data[226]</Signal>
+                <Signal>capture/ddr_wr/wr_data[225]</Signal>
+                <Signal>capture/ddr_wr/wr_data[224]</Signal>
+                <Signal>capture/ddr_wr/wr_data[223]</Signal>
+                <Signal>capture/ddr_wr/wr_data[222]</Signal>
+                <Signal>capture/ddr_wr/wr_data[221]</Signal>
+                <Signal>capture/ddr_wr/wr_data[220]</Signal>
+                <Signal>capture/ddr_wr/wr_data[219]</Signal>
+                <Signal>capture/ddr_wr/wr_data[218]</Signal>
+                <Signal>capture/ddr_wr/wr_data[217]</Signal>
+                <Signal>capture/ddr_wr/wr_data[216]</Signal>
+                <Signal>capture/ddr_wr/wr_data[215]</Signal>
+                <Signal>capture/ddr_wr/wr_data[214]</Signal>
+                <Signal>capture/ddr_wr/wr_data[213]</Signal>
+                <Signal>capture/ddr_wr/wr_data[212]</Signal>
+                <Signal>capture/ddr_wr/wr_data[211]</Signal>
+                <Signal>capture/ddr_wr/wr_data[210]</Signal>
+                <Signal>capture/ddr_wr/wr_data[209]</Signal>
+                <Signal>capture/ddr_wr/wr_data[208]</Signal>
+                <Signal>capture/ddr_wr/wr_data[207]</Signal>
+                <Signal>capture/ddr_wr/wr_data[206]</Signal>
+                <Signal>capture/ddr_wr/wr_data[205]</Signal>
+                <Signal>capture/ddr_wr/wr_data[204]</Signal>
+                <Signal>capture/ddr_wr/wr_data[203]</Signal>
+                <Signal>capture/ddr_wr/wr_data[202]</Signal>
+                <Signal>capture/ddr_wr/wr_data[201]</Signal>
+                <Signal>capture/ddr_wr/wr_data[200]</Signal>
+                <Signal>capture/ddr_wr/wr_data[199]</Signal>
+                <Signal>capture/ddr_wr/wr_data[198]</Signal>
+                <Signal>capture/ddr_wr/wr_data[197]</Signal>
+                <Signal>capture/ddr_wr/wr_data[196]</Signal>
+                <Signal>capture/ddr_wr/wr_data[195]</Signal>
+                <Signal>capture/ddr_wr/wr_data[194]</Signal>
+                <Signal>capture/ddr_wr/wr_data[193]</Signal>
+                <Signal>capture/ddr_wr/wr_data[192]</Signal>
+                <Signal>capture/ddr_wr/wr_data[191]</Signal>
+                <Signal>capture/ddr_wr/wr_data[190]</Signal>
+                <Signal>capture/ddr_wr/wr_data[189]</Signal>
+                <Signal>capture/ddr_wr/wr_data[188]</Signal>
+                <Signal>capture/ddr_wr/wr_data[187]</Signal>
+                <Signal>capture/ddr_wr/wr_data[186]</Signal>
+                <Signal>capture/ddr_wr/wr_data[185]</Signal>
+                <Signal>capture/ddr_wr/wr_data[184]</Signal>
+                <Signal>capture/ddr_wr/wr_data[183]</Signal>
+                <Signal>capture/ddr_wr/wr_data[182]</Signal>
+                <Signal>capture/ddr_wr/wr_data[181]</Signal>
+                <Signal>capture/ddr_wr/wr_data[180]</Signal>
+                <Signal>capture/ddr_wr/wr_data[179]</Signal>
+                <Signal>capture/ddr_wr/wr_data[178]</Signal>
+                <Signal>capture/ddr_wr/wr_data[177]</Signal>
+                <Signal>capture/ddr_wr/wr_data[176]</Signal>
+                <Signal>capture/ddr_wr/wr_data[175]</Signal>
+                <Signal>capture/ddr_wr/wr_data[174]</Signal>
+                <Signal>capture/ddr_wr/wr_data[173]</Signal>
+                <Signal>capture/ddr_wr/wr_data[172]</Signal>
+                <Signal>capture/ddr_wr/wr_data[171]</Signal>
+                <Signal>capture/ddr_wr/wr_data[170]</Signal>
+                <Signal>capture/ddr_wr/wr_data[169]</Signal>
+                <Signal>capture/ddr_wr/wr_data[168]</Signal>
+                <Signal>capture/ddr_wr/wr_data[167]</Signal>
+                <Signal>capture/ddr_wr/wr_data[166]</Signal>
+                <Signal>capture/ddr_wr/wr_data[165]</Signal>
+                <Signal>capture/ddr_wr/wr_data[164]</Signal>
+                <Signal>capture/ddr_wr/wr_data[163]</Signal>
+                <Signal>capture/ddr_wr/wr_data[162]</Signal>
+                <Signal>capture/ddr_wr/wr_data[161]</Signal>
+                <Signal>capture/ddr_wr/wr_data[160]</Signal>
+                <Signal>capture/ddr_wr/wr_data[159]</Signal>
+                <Signal>capture/ddr_wr/wr_data[158]</Signal>
+                <Signal>capture/ddr_wr/wr_data[157]</Signal>
+                <Signal>capture/ddr_wr/wr_data[156]</Signal>
+                <Signal>capture/ddr_wr/wr_data[155]</Signal>
+                <Signal>capture/ddr_wr/wr_data[154]</Signal>
+                <Signal>capture/ddr_wr/wr_data[153]</Signal>
+                <Signal>capture/ddr_wr/wr_data[152]</Signal>
+                <Signal>capture/ddr_wr/wr_data[151]</Signal>
+                <Signal>capture/ddr_wr/wr_data[150]</Signal>
+                <Signal>capture/ddr_wr/wr_data[149]</Signal>
+                <Signal>capture/ddr_wr/wr_data[148]</Signal>
+                <Signal>capture/ddr_wr/wr_data[147]</Signal>
+                <Signal>capture/ddr_wr/wr_data[146]</Signal>
+                <Signal>capture/ddr_wr/wr_data[145]</Signal>
+                <Signal>capture/ddr_wr/wr_data[144]</Signal>
+                <Signal>capture/ddr_wr/wr_data[143]</Signal>
+                <Signal>capture/ddr_wr/wr_data[142]</Signal>
+                <Signal>capture/ddr_wr/wr_data[141]</Signal>
+                <Signal>capture/ddr_wr/wr_data[140]</Signal>
+                <Signal>capture/ddr_wr/wr_data[139]</Signal>
+                <Signal>capture/ddr_wr/wr_data[138]</Signal>
+                <Signal>capture/ddr_wr/wr_data[137]</Signal>
+                <Signal>capture/ddr_wr/wr_data[136]</Signal>
+                <Signal>capture/ddr_wr/wr_data[135]</Signal>
+                <Signal>capture/ddr_wr/wr_data[134]</Signal>
+                <Signal>capture/ddr_wr/wr_data[133]</Signal>
+                <Signal>capture/ddr_wr/wr_data[132]</Signal>
+                <Signal>capture/ddr_wr/wr_data[131]</Signal>
+                <Signal>capture/ddr_wr/wr_data[130]</Signal>
+                <Signal>capture/ddr_wr/wr_data[129]</Signal>
+                <Signal>capture/ddr_wr/wr_data[128]</Signal>
+                <Signal>capture/ddr_wr/wr_data[127]</Signal>
+                <Signal>capture/ddr_wr/wr_data[126]</Signal>
+                <Signal>capture/ddr_wr/wr_data[125]</Signal>
+                <Signal>capture/ddr_wr/wr_data[124]</Signal>
+                <Signal>capture/ddr_wr/wr_data[123]</Signal>
+                <Signal>capture/ddr_wr/wr_data[122]</Signal>
+                <Signal>capture/ddr_wr/wr_data[121]</Signal>
+                <Signal>capture/ddr_wr/wr_data[120]</Signal>
+                <Signal>capture/ddr_wr/wr_data[119]</Signal>
+                <Signal>capture/ddr_wr/wr_data[118]</Signal>
+                <Signal>capture/ddr_wr/wr_data[117]</Signal>
+                <Signal>capture/ddr_wr/wr_data[116]</Signal>
+                <Signal>capture/ddr_wr/wr_data[115]</Signal>
+                <Signal>capture/ddr_wr/wr_data[114]</Signal>
+                <Signal>capture/ddr_wr/wr_data[113]</Signal>
+                <Signal>capture/ddr_wr/wr_data[112]</Signal>
+                <Signal>capture/ddr_wr/wr_data[111]</Signal>
+                <Signal>capture/ddr_wr/wr_data[110]</Signal>
+                <Signal>capture/ddr_wr/wr_data[109]</Signal>
+                <Signal>capture/ddr_wr/wr_data[108]</Signal>
+                <Signal>capture/ddr_wr/wr_data[107]</Signal>
+                <Signal>capture/ddr_wr/wr_data[106]</Signal>
+                <Signal>capture/ddr_wr/wr_data[105]</Signal>
+                <Signal>capture/ddr_wr/wr_data[104]</Signal>
+                <Signal>capture/ddr_wr/wr_data[103]</Signal>
+                <Signal>capture/ddr_wr/wr_data[102]</Signal>
+                <Signal>capture/ddr_wr/wr_data[101]</Signal>
+                <Signal>capture/ddr_wr/wr_data[100]</Signal>
+                <Signal>capture/ddr_wr/wr_data[99]</Signal>
+                <Signal>capture/ddr_wr/wr_data[98]</Signal>
+                <Signal>capture/ddr_wr/wr_data[97]</Signal>
+                <Signal>capture/ddr_wr/wr_data[96]</Signal>
+                <Signal>capture/ddr_wr/wr_data[95]</Signal>
+                <Signal>capture/ddr_wr/wr_data[94]</Signal>
+                <Signal>capture/ddr_wr/wr_data[93]</Signal>
+                <Signal>capture/ddr_wr/wr_data[92]</Signal>
+                <Signal>capture/ddr_wr/wr_data[91]</Signal>
+                <Signal>capture/ddr_wr/wr_data[90]</Signal>
+                <Signal>capture/ddr_wr/wr_data[89]</Signal>
+                <Signal>capture/ddr_wr/wr_data[88]</Signal>
+                <Signal>capture/ddr_wr/wr_data[87]</Signal>
+                <Signal>capture/ddr_wr/wr_data[86]</Signal>
+                <Signal>capture/ddr_wr/wr_data[85]</Signal>
+                <Signal>capture/ddr_wr/wr_data[84]</Signal>
+                <Signal>capture/ddr_wr/wr_data[83]</Signal>
+                <Signal>capture/ddr_wr/wr_data[82]</Signal>
+                <Signal>capture/ddr_wr/wr_data[81]</Signal>
+                <Signal>capture/ddr_wr/wr_data[80]</Signal>
+                <Signal>capture/ddr_wr/wr_data[79]</Signal>
+                <Signal>capture/ddr_wr/wr_data[78]</Signal>
+                <Signal>capture/ddr_wr/wr_data[77]</Signal>
+                <Signal>capture/ddr_wr/wr_data[76]</Signal>
+                <Signal>capture/ddr_wr/wr_data[75]</Signal>
+                <Signal>capture/ddr_wr/wr_data[74]</Signal>
+                <Signal>capture/ddr_wr/wr_data[73]</Signal>
+                <Signal>capture/ddr_wr/wr_data[72]</Signal>
+                <Signal>capture/ddr_wr/wr_data[71]</Signal>
+                <Signal>capture/ddr_wr/wr_data[70]</Signal>
+                <Signal>capture/ddr_wr/wr_data[69]</Signal>
+                <Signal>capture/ddr_wr/wr_data[68]</Signal>
+                <Signal>capture/ddr_wr/wr_data[67]</Signal>
+                <Signal>capture/ddr_wr/wr_data[66]</Signal>
+                <Signal>capture/ddr_wr/wr_data[65]</Signal>
+                <Signal>capture/ddr_wr/wr_data[64]</Signal>
+                <Signal>capture/ddr_wr/wr_data[63]</Signal>
+                <Signal>capture/ddr_wr/wr_data[62]</Signal>
+                <Signal>capture/ddr_wr/wr_data[61]</Signal>
+                <Signal>capture/ddr_wr/wr_data[60]</Signal>
+                <Signal>capture/ddr_wr/wr_data[59]</Signal>
+                <Signal>capture/ddr_wr/wr_data[58]</Signal>
+                <Signal>capture/ddr_wr/wr_data[57]</Signal>
+                <Signal>capture/ddr_wr/wr_data[56]</Signal>
+                <Signal>capture/ddr_wr/wr_data[55]</Signal>
+                <Signal>capture/ddr_wr/wr_data[54]</Signal>
+                <Signal>capture/ddr_wr/wr_data[53]</Signal>
+                <Signal>capture/ddr_wr/wr_data[52]</Signal>
+                <Signal>capture/ddr_wr/wr_data[51]</Signal>
+                <Signal>capture/ddr_wr/wr_data[50]</Signal>
+                <Signal>capture/ddr_wr/wr_data[49]</Signal>
+                <Signal>capture/ddr_wr/wr_data[48]</Signal>
+                <Signal>capture/ddr_wr/wr_data[47]</Signal>
+                <Signal>capture/ddr_wr/wr_data[46]</Signal>
+                <Signal>capture/ddr_wr/wr_data[45]</Signal>
+                <Signal>capture/ddr_wr/wr_data[44]</Signal>
+                <Signal>capture/ddr_wr/wr_data[43]</Signal>
+                <Signal>capture/ddr_wr/wr_data[42]</Signal>
+                <Signal>capture/ddr_wr/wr_data[41]</Signal>
+                <Signal>capture/ddr_wr/wr_data[40]</Signal>
+                <Signal>capture/ddr_wr/wr_data[39]</Signal>
+                <Signal>capture/ddr_wr/wr_data[38]</Signal>
+                <Signal>capture/ddr_wr/wr_data[37]</Signal>
+                <Signal>capture/ddr_wr/wr_data[36]</Signal>
+                <Signal>capture/ddr_wr/wr_data[35]</Signal>
+                <Signal>capture/ddr_wr/wr_data[34]</Signal>
+                <Signal>capture/ddr_wr/wr_data[33]</Signal>
+                <Signal>capture/ddr_wr/wr_data[32]</Signal>
+                <Signal>capture/ddr_wr/wr_data[31]</Signal>
+                <Signal>capture/ddr_wr/wr_data[30]</Signal>
+                <Signal>capture/ddr_wr/wr_data[29]</Signal>
+                <Signal>capture/ddr_wr/wr_data[28]</Signal>
+                <Signal>capture/ddr_wr/wr_data[27]</Signal>
+                <Signal>capture/ddr_wr/wr_data[26]</Signal>
+                <Signal>capture/ddr_wr/wr_data[25]</Signal>
+                <Signal>capture/ddr_wr/wr_data[24]</Signal>
+                <Signal>capture/ddr_wr/wr_data[23]</Signal>
+                <Signal>capture/ddr_wr/wr_data[22]</Signal>
+                <Signal>capture/ddr_wr/wr_data[21]</Signal>
+                <Signal>capture/ddr_wr/wr_data[20]</Signal>
+                <Signal>capture/ddr_wr/wr_data[19]</Signal>
+                <Signal>capture/ddr_wr/wr_data[18]</Signal>
+                <Signal>capture/ddr_wr/wr_data[17]</Signal>
+                <Signal>capture/ddr_wr/wr_data[16]</Signal>
+                <Signal>capture/ddr_wr/wr_data[15]</Signal>
+                <Signal>capture/ddr_wr/wr_data[14]</Signal>
+                <Signal>capture/ddr_wr/wr_data[13]</Signal>
+                <Signal>capture/ddr_wr/wr_data[12]</Signal>
+                <Signal>capture/ddr_wr/wr_data[11]</Signal>
+                <Signal>capture/ddr_wr/wr_data[10]</Signal>
+                <Signal>capture/ddr_wr/wr_data[9]</Signal>
+                <Signal>capture/ddr_wr/wr_data[8]</Signal>
+                <Signal>capture/ddr_wr/wr_data[7]</Signal>
+                <Signal>capture/ddr_wr/wr_data[6]</Signal>
+                <Signal>capture/ddr_wr/wr_data[5]</Signal>
+                <Signal>capture/ddr_wr/wr_data[4]</Signal>
+                <Signal>capture/ddr_wr/wr_data[3]</Signal>
+                <Signal>capture/ddr_wr/wr_data[2]</Signal>
+                <Signal>capture/ddr_wr/wr_data[1]</Signal>
+                <Signal>capture/ddr_wr/wr_data[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">capture/ddr_wr/RdEn_i</Signal>
+            <Bus capture_enable="true" name="capture/ddr_wr/Rnum_o[1:0]">
+                <Signal>capture/ddr_wr/Rnum_o[1]</Signal>
+                <Signal>capture/ddr_wr/Rnum_o[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">capture/ddr_wr/WrEn_i</Signal>
+            <Bus capture_enable="true" name="capture/ddr_wr/cur_state[1:0]">
+                <Signal>capture/ddr_wr/cur_state[1]</Signal>
+                <Signal>capture/ddr_wr/cur_state[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">capture/ddr_wr/capture_en</Signal>
+            <Signal capture_enable="true">capture/ddr_wr/cmd_ready</Signal>
+            <Signal capture_enable="true">capture/ddr_wr/cmd_en</Signal>
+            <Signal capture_enable="true">capture/ddr_wr/init_calib_complete</Signal>
+            <Signal capture_enable="true">capture/is_write</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Bus restorename="capture/ddr_wr/addr[28:0]">
+                        <Signal>capture/ddr_wr/addr[28]</Signal>
+                        <Signal>capture/ddr_wr/addr[27]</Signal>
+                        <Signal>capture/ddr_wr/addr[26]</Signal>
+                        <Signal>capture/ddr_wr/addr[25]</Signal>
+                        <Signal>capture/ddr_wr/addr[24]</Signal>
+                        <Signal>capture/ddr_wr/addr[23]</Signal>
+                        <Signal>capture/ddr_wr/addr[22]</Signal>
+                        <Signal>capture/ddr_wr/addr[21]</Signal>
+                        <Signal>capture/ddr_wr/addr[20]</Signal>
+                        <Signal>capture/ddr_wr/addr[19]</Signal>
+                        <Signal>capture/ddr_wr/addr[18]</Signal>
+                        <Signal>capture/ddr_wr/addr[17]</Signal>
+                        <Signal>capture/ddr_wr/addr[16]</Signal>
+                        <Signal>capture/ddr_wr/addr[15]</Signal>
+                        <Signal>capture/ddr_wr/addr[14]</Signal>
+                        <Signal>capture/ddr_wr/addr[13]</Signal>
+                        <Signal>capture/ddr_wr/addr[12]</Signal>
+                        <Signal>capture/ddr_wr/addr[11]</Signal>
+                        <Signal>capture/ddr_wr/addr[10]</Signal>
+                        <Signal>capture/ddr_wr/addr[9]</Signal>
+                        <Signal>capture/ddr_wr/addr[8]</Signal>
+                        <Signal>capture/ddr_wr/addr[7]</Signal>
+                        <Signal>capture/ddr_wr/addr[6]</Signal>
+                        <Signal>capture/ddr_wr/addr[5]</Signal>
+                        <Signal>capture/ddr_wr/addr[4]</Signal>
+                        <Signal>capture/ddr_wr/addr[3]</Signal>
+                        <Signal>capture/ddr_wr/addr[2]</Signal>
+                        <Signal>capture/ddr_wr/addr[1]</Signal>
+                        <Signal>capture/ddr_wr/addr[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="00000000000000000000000001000" value1="00000000000000000000000000000" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1000010110001010</GAO_ID>
+</GAO_CONFIG>

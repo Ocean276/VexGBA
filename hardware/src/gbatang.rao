@@ -1,0 +1,274 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk16" trig_type="0" storage_depth="4096" window_num="1" capture_amount="4096" implementation="0" trigger_pos="2048" module_name="gbatang_top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus capture_enable="true" name="iosys/io_apbOut_PADDR[31:0]">
+                <Signal>iosys/io_apbOut_PADDR[31]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[30]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[29]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[28]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[27]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[26]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[25]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[24]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[23]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[22]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[21]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[20]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[19]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[18]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[17]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[16]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[15]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[14]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[13]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[12]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[11]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[10]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[9]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[8]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[7]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[6]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[5]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[4]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[3]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[2]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[1]</Signal>
+                <Signal>iosys/io_apbOut_PADDR[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="iosys/io_apbOut_PSEL[0:0]">
+                <Signal>iosys/io_apbOut_PSEL[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="iosys/io_apbOut_PWDATA[31:0]">
+                <Signal>iosys/io_apbOut_PWDATA[31]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[30]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[29]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[28]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[27]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[26]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[25]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[24]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[23]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[22]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[21]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[20]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[19]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[18]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[17]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[16]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[15]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[14]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[13]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[12]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[11]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[10]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[9]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[8]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[7]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[6]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[5]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[4]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[3]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[2]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[1]</Signal>
+                <Signal>iosys/io_apbOut_PWDATA[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="iosys/io_apbOut_PRDATA[31:0]">
+                <Signal>iosys/io_apbOut_PRDATA[31]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[30]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[29]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[28]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[27]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[26]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[25]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[24]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[23]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[22]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[21]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[20]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[19]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[18]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[17]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[16]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[15]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[14]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[13]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[12]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[11]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[10]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[9]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[8]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[7]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[6]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[5]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[4]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[3]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[2]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[1]</Signal>
+                <Signal>iosys/io_apbOut_PRDATA[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">iosys/io_apbOut_PENABLE</Signal>
+            <Signal capture_enable="true">iosys/io_apbOut_PREADY</Signal>
+            <Signal capture_enable="true">iosys/io_apbOut_PWRITE</Signal>
+            <Signal capture_enable="true">iosys/io_apbOut_PSLVERROR</Signal>
+            <Bus capture_enable="true" name="iosys/mem_addr[31:0]">
+                <Signal>iosys/mem_addr[31]</Signal>
+                <Signal>iosys/mem_addr[30]</Signal>
+                <Signal>iosys/mem_addr[29]</Signal>
+                <Signal>iosys/mem_addr[28]</Signal>
+                <Signal>iosys/mem_addr[27]</Signal>
+                <Signal>iosys/mem_addr[26]</Signal>
+                <Signal>iosys/mem_addr[25]</Signal>
+                <Signal>iosys/mem_addr[24]</Signal>
+                <Signal>iosys/mem_addr[23]</Signal>
+                <Signal>iosys/mem_addr[22]</Signal>
+                <Signal>iosys/mem_addr[21]</Signal>
+                <Signal>iosys/mem_addr[20]</Signal>
+                <Signal>iosys/mem_addr[19]</Signal>
+                <Signal>iosys/mem_addr[18]</Signal>
+                <Signal>iosys/mem_addr[17]</Signal>
+                <Signal>iosys/mem_addr[16]</Signal>
+                <Signal>iosys/mem_addr[15]</Signal>
+                <Signal>iosys/mem_addr[14]</Signal>
+                <Signal>iosys/mem_addr[13]</Signal>
+                <Signal>iosys/mem_addr[12]</Signal>
+                <Signal>iosys/mem_addr[11]</Signal>
+                <Signal>iosys/mem_addr[10]</Signal>
+                <Signal>iosys/mem_addr[9]</Signal>
+                <Signal>iosys/mem_addr[8]</Signal>
+                <Signal>iosys/mem_addr[7]</Signal>
+                <Signal>iosys/mem_addr[6]</Signal>
+                <Signal>iosys/mem_addr[5]</Signal>
+                <Signal>iosys/mem_addr[4]</Signal>
+                <Signal>iosys/mem_addr[3]</Signal>
+                <Signal>iosys/mem_addr[2]</Signal>
+                <Signal>iosys/mem_addr[1]</Signal>
+                <Signal>iosys/mem_addr[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="iosys/mem_wdata[31:0]">
+                <Signal>iosys/mem_wdata[31]</Signal>
+                <Signal>iosys/mem_wdata[30]</Signal>
+                <Signal>iosys/mem_wdata[29]</Signal>
+                <Signal>iosys/mem_wdata[28]</Signal>
+                <Signal>iosys/mem_wdata[27]</Signal>
+                <Signal>iosys/mem_wdata[26]</Signal>
+                <Signal>iosys/mem_wdata[25]</Signal>
+                <Signal>iosys/mem_wdata[24]</Signal>
+                <Signal>iosys/mem_wdata[23]</Signal>
+                <Signal>iosys/mem_wdata[22]</Signal>
+                <Signal>iosys/mem_wdata[21]</Signal>
+                <Signal>iosys/mem_wdata[20]</Signal>
+                <Signal>iosys/mem_wdata[19]</Signal>
+                <Signal>iosys/mem_wdata[18]</Signal>
+                <Signal>iosys/mem_wdata[17]</Signal>
+                <Signal>iosys/mem_wdata[16]</Signal>
+                <Signal>iosys/mem_wdata[15]</Signal>
+                <Signal>iosys/mem_wdata[14]</Signal>
+                <Signal>iosys/mem_wdata[13]</Signal>
+                <Signal>iosys/mem_wdata[12]</Signal>
+                <Signal>iosys/mem_wdata[11]</Signal>
+                <Signal>iosys/mem_wdata[10]</Signal>
+                <Signal>iosys/mem_wdata[9]</Signal>
+                <Signal>iosys/mem_wdata[8]</Signal>
+                <Signal>iosys/mem_wdata[7]</Signal>
+                <Signal>iosys/mem_wdata[6]</Signal>
+                <Signal>iosys/mem_wdata[5]</Signal>
+                <Signal>iosys/mem_wdata[4]</Signal>
+                <Signal>iosys/mem_wdata[3]</Signal>
+                <Signal>iosys/mem_wdata[2]</Signal>
+                <Signal>iosys/mem_wdata[1]</Signal>
+                <Signal>iosys/mem_wdata[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="iosys/mem_wstrb[3:0]">
+                <Signal>iosys/mem_wstrb[3]</Signal>
+                <Signal>iosys/mem_wstrb[2]</Signal>
+                <Signal>iosys/mem_wstrb[1]</Signal>
+                <Signal>iosys/mem_wstrb[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="iosys/mem_rdata[31:0]">
+                <Signal>iosys/mem_rdata[31]</Signal>
+                <Signal>iosys/mem_rdata[30]</Signal>
+                <Signal>iosys/mem_rdata[29]</Signal>
+                <Signal>iosys/mem_rdata[28]</Signal>
+                <Signal>iosys/mem_rdata[27]</Signal>
+                <Signal>iosys/mem_rdata[26]</Signal>
+                <Signal>iosys/mem_rdata[25]</Signal>
+                <Signal>iosys/mem_rdata[24]</Signal>
+                <Signal>iosys/mem_rdata[23]</Signal>
+                <Signal>iosys/mem_rdata[22]</Signal>
+                <Signal>iosys/mem_rdata[21]</Signal>
+                <Signal>iosys/mem_rdata[20]</Signal>
+                <Signal>iosys/mem_rdata[19]</Signal>
+                <Signal>iosys/mem_rdata[18]</Signal>
+                <Signal>iosys/mem_rdata[17]</Signal>
+                <Signal>iosys/mem_rdata[16]</Signal>
+                <Signal>iosys/mem_rdata[15]</Signal>
+                <Signal>iosys/mem_rdata[14]</Signal>
+                <Signal>iosys/mem_rdata[13]</Signal>
+                <Signal>iosys/mem_rdata[12]</Signal>
+                <Signal>iosys/mem_rdata[11]</Signal>
+                <Signal>iosys/mem_rdata[10]</Signal>
+                <Signal>iosys/mem_rdata[9]</Signal>
+                <Signal>iosys/mem_rdata[8]</Signal>
+                <Signal>iosys/mem_rdata[7]</Signal>
+                <Signal>iosys/mem_rdata[6]</Signal>
+                <Signal>iosys/mem_rdata[5]</Signal>
+                <Signal>iosys/mem_rdata[4]</Signal>
+                <Signal>iosys/mem_rdata[3]</Signal>
+                <Signal>iosys/mem_rdata[2]</Signal>
+                <Signal>iosys/mem_rdata[1]</Signal>
+                <Signal>iosys/mem_rdata[0]</Signal>
+            </Bus>
+            <Signal capture_enable="true">iosys/mem_valid</Signal>
+            <Signal capture_enable="true">iosys/mem_ready</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Bus restorename="iosys/io_apbOut_PSEL[0:0]">
+                        <Signal>iosys/io_apbOut_PSEL[0]</Signal>
+                    </Bus>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="000000000000000011100101110111000" value1="000000000000000000000000000000000" trigger="0"/>
+            <MatchUnit index="2" enabled="0" match_type="1" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1" value1="0" trigger="0"/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="0011000000000000000000000000000000000000000000000000000000000000" value1="0000000000000000000000000000000000000000000000000000000000000000" trigger="0"/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="1111000000000000000000000000000000000000000000000000000000000000" value1="0000000000000000000000000000000000000000000000000000000000000000" trigger="0"/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>0011000010010111</GAO_ID>
+</GAO_CONFIG>

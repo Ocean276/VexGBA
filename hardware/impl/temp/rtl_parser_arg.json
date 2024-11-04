@@ -1,0 +1,338 @@
+{
+ "Device" : "GW5AST-138B",
+ "Files" : [
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/DDR_rd_fifo/DDR_rd_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/GMII2RGMII/GMII2RGMII.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/GMII_pll/GMII_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/VexGBA.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/capture/GMII_send.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/capture/capture.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/capture/crc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/capture/ddr_rd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/capture/ddr_wr.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/capture/udp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/common/dpram32_block.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/common/dpram_block.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/common/dual_clk_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/common/eprocreg_gba.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/cpu/gba_cpu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/cpu/gba_cpu_thumbdecoder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/ddr3_memory_interface/ddr3_memory_interface.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/fifo_top/fifo_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gba2hdmi.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gowin_dpb/gowin_dpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gowin_pll_6p25/gowin_pll_6p25.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gowin_sdpb/gowin_sdpb.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_merge.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode0.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode2.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_mode345.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_drawer_obj.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_colorshade.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_timer.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/vram_hi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/gpu/vram_lo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/audio_clock_regeneration_packet.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/audio_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/audio_sample_packet.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/auxiliary_video_information_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/hdmi.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/packet_assembler.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/serializer.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/source_product_description_info_frame.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/hdmi/tmds_channel.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/Briey.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/Briey_defines.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/apb2custom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/audio_drive.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/axi2custom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/gowin_dpb_menu.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/iosys.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/simplespimaster.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/simpleuart.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/spi_master.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/spiflash.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/iosys/textdisp.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/m138k/pll_27.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/m138k/pll_33.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/m138k/pll_74.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/gba_dma.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/gba_eeprom.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/gba_flash_sram.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/gba_memory.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/mem_eeprom.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/mem_iwram.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/rv_sdram_adapter.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/memory/sdram_gba.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/peripherals/controller_ds2.sv",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/peripherals/gba_joypad.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/pixel_udp_fifo/pixel_udp_fifo.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/sound/gba_sound.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+  "src/common",
+  "src/iosys"
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/2024FPGA/gbatang/impl/temp/rtl_parser.result",
+ "Top" : "VexGBA",
+ "VerilogStd" : "sysv",
+ "VhdlStd" : "vhdl_2008"
+}

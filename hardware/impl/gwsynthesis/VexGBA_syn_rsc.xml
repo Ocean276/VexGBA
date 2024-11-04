@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="VexGBA" Register="29" Alu="26" Lut="17">
+    <SubModule name="pll27"/>
+    <SubModule name="pll33"/>
+    <SubModule name="pll74"/>
+    <SubModule name="GMII_pll"/>
+    <SubModule name="cpu" Register="1229" Alu="275" Lut="5712" MULT27X36="2">
+        <SubModule name="thumb_decoder" Lut="427"/>
+    </SubModule>
+    <SubModule name="gpu" Register="17" Lut="13">
+        <SubModule name="igba_gpu_timing" Register="68" Lut="95">
+            <SubModule name="iREG_DISPSTAT_V_Blank_IRQ_Enable" Register="1" Lut="2"/>
+            <SubModule name="iREG_DISPSTAT_H_Blank_IRQ_Enable" Register="1"/>
+            <SubModule name="iREG_DISPSTAT_V_Counter_IRQ_Enable" Register="1"/>
+            <SubModule name="iREG_DISPSTAT_V_Count_Setting" Register="8" Lut="2"/>
+        </SubModule>
+        <SubModule name="drawer" Register="1041" Alu="118" Lut="1385">
+            <SubModule name="iREG_DISPCNT_BG_Mode" Register="3" Lut="5"/>
+            <SubModule name="iREG_DISPCNT_Reserved_CGB_Mode" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Display_Frame_Select" Register="1"/>
+            <SubModule name="iREG_DISPCNT_H_Blank_IntervalFree" Register="1"/>
+            <SubModule name="iREG_DISPCNT_OBJ_Char_VRAM_Map" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Forced_Blank" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Screen_Display_BG0" Register="1" Lut="1"/>
+            <SubModule name="iREG_DISPCNT_Screen_Display_BG1" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Screen_Display_BG2" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Screen_Display_BG3" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Screen_Display_OBJ" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Window_0_Display_Flag" Register="1"/>
+            <SubModule name="iREG_DISPCNT_Window_1_Display_Flag" Register="1"/>
+            <SubModule name="iREG_DISPCNT_OBJ_Wnd_Display_Flag" Register="1"/>
+            <SubModule name="iREG_GREENSWAP" Register="16" Lut="4"/>
+            <SubModule name="iREG_BG0CNT_BG_Priority" Register="2" Lut="4"/>
+            <SubModule name="iREG_BG0CNT_Character_Base_Block" Register="2"/>
+            <SubModule name="iREG_BG0CNT_UNUSED_4_5" Register="2"/>
+            <SubModule name="iREG_BG0CNT_Mosaic" Register="1"/>
+            <SubModule name="iREG_BG0CNT_Colors_Palettes" Register="1"/>
+            <SubModule name="iREG_BG0CNT_Screen_Base_Block" Register="5" Lut="1"/>
+            <SubModule name="iREG_BG0CNT_Screen_Size" Register="2"/>
+            <SubModule name="iREG_BG1CNT_BG_Priority" Register="2" Lut="1"/>
+            <SubModule name="iREG_BG1CNT_Character_Base_Block" Register="2"/>
+            <SubModule name="iREG_BG1CNT_UNUSED_4_5" Register="2"/>
+            <SubModule name="iREG_BG1CNT_Mosaic" Register="1"/>
+            <SubModule name="iREG_BG1CNT_Colors_Palettes" Register="1"/>
+            <SubModule name="iREG_BG1CNT_Screen_Base_Block" Register="5" Lut="1"/>
+            <SubModule name="iREG_BG1CNT_Screen_Size" Register="2"/>
+            <SubModule name="iREG_BG2CNT_BG_Priority" Register="2" Lut="2"/>
+            <SubModule name="iREG_BG2CNT_Character_Base_Block" Register="2"/>
+            <SubModule name="iREG_BG2CNT_UNUSED_4_5" Register="2"/>
+            <SubModule name="iREG_BG2CNT_Mosaic" Register="1"/>
+            <SubModule name="iREG_BG2CNT_Colors_Palettes" Register="1"/>
+            <SubModule name="iREG_BG2CNT_Screen_Base_Block" Register="5" Lut="1"/>
+            <SubModule name="iREG_BG2CNT_Display_Area_Overflow" Register="1"/>
+            <SubModule name="iREG_BG2CNT_Screen_Size" Register="2"/>
+            <SubModule name="iREG_BG3CNT_BG_Priority" Register="2" Lut="1"/>
+            <SubModule name="iREG_BG3CNT_Character_Base_Block" Register="2"/>
+            <SubModule name="iREG_BG3CNT_UNUSED_4_5" Register="2"/>
+            <SubModule name="iREG_BG3CNT_Mosaic" Register="1"/>
+            <SubModule name="iREG_BG3CNT_Colors_Palettes" Register="1"/>
+            <SubModule name="iREG_BG3CNT_Screen_Base_Block" Register="5" Lut="1"/>
+            <SubModule name="iREG_BG3CNT_Display_Area_Overflow" Register="1"/>
+            <SubModule name="iREG_BG3CNT_Screen_Size" Register="2"/>
+            <SubModule name="iREG_BG0HOFS" Register="9" Lut="5"/>
+            <SubModule name="iREG_BG0VOFS" Register="9" Lut="2"/>
+            <SubModule name="iREG_BG1HOFS" Register="9" Lut="4"/>
+            <SubModule name="iREG_BG1VOFS" Register="9" Lut="2"/>
+            <SubModule name="iREG_BG2HOFS" Register="9" Lut="4"/>
+            <SubModule name="iREG_BG2VOFS" Register="9" Lut="2"/>
+            <SubModule name="iREG_BG3HOFS" Register="9" Lut="3"/>
+            <SubModule name="iREG_BG3VOFS" Register="9" Lut="2"/>
+            <SubModule name="iREG_BG2RotScaleParDX" Register="16" Lut="4"/>
+            <SubModule name="iREG_BG2RotScaleParDMX" Register="16" Lut="2"/>
+            <SubModule name="iREG_BG2RotScaleParDY" Register="16" Lut="3"/>
+            <SubModule name="iREG_BG2RotScaleParDMY" Register="16" Lut="2"/>
+            <SubModule name="iREG_BG2RefX" Register="29" Lut="8"/>
+            <SubModule name="iREG_BG2RefY" Register="29" Lut="8"/>
+            <SubModule name="iREG_BG3RotScaleParDX" Register="16" Lut="4"/>
+            <SubModule name="iREG_BG3RotScaleParDMX" Register="16" Lut="2"/>
+            <SubModule name="iREG_BG3RotScaleParDY" Register="16" Lut="3"/>
+            <SubModule name="iREG_BG3RotScaleParDMY" Register="16" Lut="2"/>
+            <SubModule name="iREG_BG3RefX" Register="29" Lut="6"/>
+            <SubModule name="iREG_BG3RefY" Register="29" Lut="6"/>
+            <SubModule name="iREG_WIN0H_X2" Register="8" Lut="3"/>
+            <SubModule name="iREG_WIN0H_X1" Register="8" Lut="1"/>
+            <SubModule name="iREG_WIN1H_X2" Register="8" Lut="1"/>
+            <SubModule name="iREG_WIN1H_X1" Register="8" Lut="1"/>
+            <SubModule name="iREG_WIN0V_Y2" Register="8" Lut="2"/>
+            <SubModule name="iREG_WIN0V_Y1" Register="8" Lut="1"/>
+            <SubModule name="iREG_WIN1V_Y2" Register="8" Lut="1"/>
+            <SubModule name="iREG_WIN1V_Y1" Register="8" Lut="1"/>
+            <SubModule name="iREG_WININ_Window_0_BG0_Enable" Register="1" Lut="2"/>
+            <SubModule name="iREG_WININ_Window_0_BG1_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_0_BG2_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_0_BG3_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_0_OBJ_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_0_Special_Effect" Register="1"/>
+            <SubModule name="iREG_WININ_Window_1_BG0_Enable" Register="1" Lut="1"/>
+            <SubModule name="iREG_WININ_Window_1_BG1_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_1_BG2_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_1_BG3_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_1_OBJ_Enable" Register="1"/>
+            <SubModule name="iREG_WININ_Window_1_Special_Effect" Register="1"/>
+            <SubModule name="iREG_WINOUT_Outside_BG0_Enable" Register="1" Lut="1"/>
+            <SubModule name="iREG_WINOUT_Outside_BG1_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Outside_BG2_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Outside_BG3_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Outside_OBJ_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Outside_Special_Effect" Register="1"/>
+            <SubModule name="iREG_WINOUT_Objwnd_BG0_Enable" Register="1" Lut="1"/>
+            <SubModule name="iREG_WINOUT_Objwnd_BG1_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Objwnd_BG2_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Objwnd_BG3_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Objwnd_OBJ_Enable" Register="1"/>
+            <SubModule name="iREG_WINOUT_Objwnd_Special_Effect" Register="1"/>
+            <SubModule name="iREG_MOSAIC_BG_Mosaic_H_Size" Register="4" Lut="3"/>
+            <SubModule name="iREG_MOSAIC_BG_Mosaic_V_Size" Register="4"/>
+            <SubModule name="iREG_MOSAIC_OBJ_Mosaic_H_Size" Register="4" Lut="1"/>
+            <SubModule name="iREG_MOSAIC_OBJ_Mosaic_V_Size" Register="4"/>
+            <SubModule name="iREG_BLDCNT_BG0_1st_Target_Pixel" Register="1" Lut="2"/>
+            <SubModule name="iREG_BLDCNT_BG1_1st_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_BG2_1st_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_BG3_1st_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_OBJ_1st_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_BD_1st_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_Color_Special_Effect" Register="2"/>
+            <SubModule name="iREG_BLDCNT_BG0_2nd_Target_Pixel" Register="1" Lut="1"/>
+            <SubModule name="iREG_BLDCNT_BG1_2nd_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_BG2_2nd_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_BG3_2nd_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_OBJ_2nd_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDCNT_BD_2nd_Target_Pixel" Register="1"/>
+            <SubModule name="iREG_BLDALPHA_EVA_Coefficient" Register="5" Lut="1"/>
+            <SubModule name="iREG_BLDALPHA_EVB_Coefficient" Register="5" Lut="1"/>
+            <SubModule name="iREG_BLDY" Register="5" Lut="2"/>
+            <SubModule name="ivram_lo" Register="8" Lut="993" Bsram="32"/>
+            <SubModule name="ivram_hi" Register="6" Lut="449" Bsram="16"/>
+            <SubModule name="oamram" Bsram="2"/>
+            <SubModule name="paletteram_bg" Bsram="2"/>
+            <SubModule name="paletteram_oam" Bsram="2"/>
+            <SubModule name="igba_drawer_mode0_0" Register="182" Alu="128" Lut="260" MULT12X12="1"/>
+            <SubModule name="igba_drawer_mode0_1" Register="182" Alu="128" Lut="260" MULT12X12="1"/>
+            <SubModule name="igba_drawer_mode0_2" Register="182" Alu="128" Lut="260" MULT12X12="1"/>
+            <SubModule name="igba_drawer_mode0_3" Register="182" Alu="128" Lut="260" MULT12X12="1"/>
+            <SubModule name="igba_drawer_mode2_2" Register="276" Alu="137" Lut="390"/>
+            <SubModule name="igba_drawer_mode2_3" Register="276" Alu="137" Lut="389"/>
+            <SubModule name="igba_drawer_mode345" Register="191" Alu="107" Lut="332" MULTALU27X18="3"/>
+            <SubModule name="igba_drawer_obj" Register="1223" Alu="318" Lut="1839" MULTALU27X18="6" MULT12X12="5"/>
+            <SubModule name="ilinebuffer_bg0" Bsram="1"/>
+            <SubModule name="ilinebuffer_bg1" Bsram="1"/>
+            <SubModule name="ilinebuffer_bg2" Bsram="1"/>
+            <SubModule name="ilinebuffer_bg3" Bsram="1"/>
+            <SubModule name="ilinebuffer_obj_color" Bsram="1"/>
+            <SubModule name="ilinebuffer_obj_settings" Bsram="1"/>
+            <SubModule name="igba_drawer_merge" Register="656" Alu="117" Lut="393" MULT12X12="6" MULTADDALU12X12="3"/>
+        </SubModule>
+        <SubModule name="igba_gpu_colorshade" Register="32"/>
+    </SubModule>
+    <SubModule name="sound" Register="175" Alu="102" Lut="282" MULT12X12="2">
+        <SubModule name="iSound_1_4_Master_Volume_RIGHT" Register="3" Lut="2"/>
+        <SubModule name="iSound_1_4_Master_Volume_LEFT" Register="3"/>
+        <SubModule name="iSound_1_Enable_Flags_RIGHT" Register="1" Lut="1"/>
+        <SubModule name="iSound_2_Enable_Flags_RIGHT" Register="1"/>
+        <SubModule name="iSound_3_Enable_Flags_RIGHT" Register="1"/>
+        <SubModule name="iSound_4_Enable_Flags_RIGHT" Register="1"/>
+        <SubModule name="iSound_1_Enable_Flags_LEFT" Register="1"/>
+        <SubModule name="iSound_2_Enable_Flags_LEFT" Register="1"/>
+        <SubModule name="iSound_3_Enable_Flags_LEFT" Register="1"/>
+        <SubModule name="iSound_4_Enable_Flags_LEFT" Register="1"/>
+        <SubModule name="iSound_1_4_Volume" Register="2" Lut="1"/>
+        <SubModule name="iDMA_Sound_A_Volume" Register="1"/>
+        <SubModule name="iDMA_Sound_B_Volume" Register="1"/>
+        <SubModule name="iDMA_Sound_A_Enable_RIGHT" Register="2" Lut="2"/>
+        <SubModule name="iDMA_Sound_A_Enable_LEFT" Register="1"/>
+        <SubModule name="iDMA_Sound_A_Timer_Select" Register="1"/>
+        <SubModule name="iDMA_Sound_A_Reset_FIFO" Register="1"/>
+        <SubModule name="iDMA_Sound_B_Enable_RIGHT" Register="1"/>
+        <SubModule name="iDMA_Sound_B_Enable_LEFT" Register="1"/>
+        <SubModule name="iDMA_Sound_B_Timer_Select" Register="1"/>
+        <SubModule name="iDMA_Sound_B_Reset_FIFO" Register="1"/>
+        <SubModule name="iPSG_FIFO_Master_Enable" Register="1" Lut="2"/>
+        <SubModule name="iREG_SOUNDBIAS" Register="16" Lut="3"/>
+        <SubModule name="igba_sound_ch1" Register="168" Alu="87" Lut="322">
+            <SubModule name="gsweep.iReg_Channel_Number_of_sweep_shift" Register="3" Lut="2"/>
+            <SubModule name="gsweep.iReg_Channel_Sweep_Frequency_Direction" Register="1"/>
+            <SubModule name="gsweep.iReg_Channel_Sweep_Time" Register="3"/>
+            <SubModule name="iReg_Channel_Sound_length" Register="7" Lut="2"/>
+            <SubModule name="iReg_Channel_Wave_Pattern_Duty" Register="2"/>
+            <SubModule name="iReg_Channel_Envelope_Step_Time" Register="3" Lut="1"/>
+            <SubModule name="iReg_Channel_Envelope_Direction" Register="1"/>
+            <SubModule name="iReg_Channel_Initial_Volume_of_envelope" Register="5"/>
+            <SubModule name="iReg_Channel_Frequency" Register="12" Lut="4"/>
+            <SubModule name="iReg_Channel_Length_Flag" Register="1"/>
+            <SubModule name="iReg_Channel_Initial" Register="1"/>
+        </SubModule>
+        <SubModule name="igba_sound_ch2" Register="126" Alu="47" Lut="217">
+            <SubModule name="iReg_Channel_Sound_length" Register="7" Lut="3"/>
+            <SubModule name="iReg_Channel_Wave_Pattern_Duty" Register="2"/>
+            <SubModule name="iReg_Channel_Envelope_Step_Time" Register="3" Lut="1"/>
+            <SubModule name="iReg_Channel_Envelope_Direction" Register="1"/>
+            <SubModule name="iReg_Channel_Initial_Volume_of_envelope" Register="5"/>
+            <SubModule name="iReg_Channel_Frequency" Register="12" Lut="4"/>
+            <SubModule name="iReg_Channel_Length_Flag" Register="1"/>
+            <SubModule name="iReg_Channel_Initial" Register="1"/>
+        </SubModule>
+        <SubModule name="igba_sound_ch3" Register="384" Alu="33" Lut="408" MULT12X12="1">
+            <SubModule name="iREG_SOUND3CNT_L_Wave_RAM_Dimension" Register="1" Lut="2"/>
+            <SubModule name="iREG_SOUND3CNT_L_Wave_RAM_Bank_Number" Register="2" Lut="1"/>
+            <SubModule name="iREG_SOUND3CNT_L_Sound_Channel_3_Off" Register="1"/>
+            <SubModule name="iREG_SOUND3CNT_H_Sound_length" Register="9" Lut="1"/>
+            <SubModule name="iREG_SOUND3CNT_H_Sound_Volume" Register="3" Lut="1"/>
+            <SubModule name="iREG_SOUND3CNT_H_Force_Volume" Register="1"/>
+            <SubModule name="iREG_SOUND3CNT_X_Sample_Rate" Register="12" Lut="4"/>
+            <SubModule name="iREG_SOUND3CNT_X_Length_Flag" Register="1"/>
+            <SubModule name="iREG_SOUND3CNT_X_Initial" Register="1" Lut="1"/>
+            <SubModule name="iREG_WAVE_RAM" Register="33" Lut="6"/>
+            <SubModule name="iREG_WAVE_RAM2" Register="33" Lut="6"/>
+            <SubModule name="iREG_WAVE_RAM3" Register="33" Lut="6"/>
+            <SubModule name="iREG_WAVE_RAM4" Register="33" Lut="6"/>
+        </SubModule>
+        <SubModule name="igba_sound_ch4" Register="138" Alu="51" Lut="231">
+            <SubModule name="iREG_Sound_length" Register="7" Lut="3"/>
+            <SubModule name="iREG_Envelope_Step_Time" Register="3" Lut="1"/>
+            <SubModule name="iREG_Envelope_Direction" Register="1"/>
+            <SubModule name="iREG_Initial_Volume_of_envelope" Register="5"/>
+            <SubModule name="iREG_Dividing_Ratio_of_Freq" Register="4" Lut="3"/>
+            <SubModule name="iREG_Counter_Step_Width" Register="1"/>
+            <SubModule name="iREG_Shift_Clock_Frequency" Register="4"/>
+            <SubModule name="iREG_Length_Flag" Register="1" Lut="1"/>
+            <SubModule name="iREG_Initial" Register="2"/>
+        </SubModule>
+        <SubModule name="igba_sound_dmaA" Register="55" Alu="3" Lut="67" Ssram="8">
+            <SubModule name="iFIFO_REGISTER" Register="33" Lut="15"/>
+        </SubModule>
+        <SubModule name="igba_sound_dmaB" Register="51" Alu="3" Lut="67" Ssram="8">
+            <SubModule name="iFIFO_REGISTER" Register="33" Lut="15"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="clk_6p25m"/>
+    <SubModule name="clk_1p526m"/>
+    <SubModule name="Audio_SDPB" Bsram="1"/>
+    <SubModule name="u_audio_drive_0" Register="25" Alu="4" Lut="20"/>
+    <SubModule name="mem" Register="318" Alu="3" Lut="1338" Bsram="8" Ssram="2">
+        <SubModule name="iwram" Register="3" Lut="226" Bsram="16"/>
+        <SubModule name="eeprom" Register="32" Lut="186">
+            <SubModule name="m_eeprom" Register="4" Lut="30" Bsram="4"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="sdram" Register="318" Alu="22" Lut="1007"/>
+    <SubModule name="rv_adapt" Register="70" Lut="152"/>
+    <SubModule name="intr" Register="43" Lut="65">
+        <SubModule name="iREG_IRP_IE" Register="16" Lut="3"/>
+        <SubModule name="iREG_IRP_IF" Register="13" Lut="4"/>
+        <SubModule name="iREG_WAITCNT" Register="15" Lut="4"/>
+        <SubModule name="iREG_IME" Register="1" Lut="2"/>
+        <SubModule name="iREG_HALTCNT" Register="8" Lut="4"/>
+    </SubModule>
+    <SubModule name="dma" Register="35" Lut="142">
+        <SubModule name="igba_dma_module0" Register="203" Lut="719">
+            <SubModule name="iSAD" Register="26" Lut="5"/>
+            <SubModule name="iDAD" Register="26" Lut="6"/>
+            <SubModule name="iCNT_L" Register="14" Lut="3"/>
+            <SubModule name="iCNT_H_Dest_Addr_Control" Register="2" Lut="1"/>
+            <SubModule name="iCNT_H_Source_Adr_Control" Register="2" Lut="1"/>
+            <SubModule name="iCNT_H_DMA_Repeat" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Transfer_Type" Register="1"/>
+            <SubModule name="iCNT_H_DMA_start_timing" Register="2"/>
+            <SubModule name="iCNT_H_IRQ_on" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Enable" Register="2" Lut="1"/>
+        </SubModule>
+        <SubModule name="igba_dma_module1" Register="203" Lut="724">
+            <SubModule name="iSAD" Register="27" Lut="5"/>
+            <SubModule name="iDAD" Register="26" Lut="4"/>
+            <SubModule name="iCNT_L" Register="14" Lut="3"/>
+            <SubModule name="iCNT_H_Dest_Addr_Control" Register="2"/>
+            <SubModule name="iCNT_H_Source_Adr_Control" Register="2" Lut="2"/>
+            <SubModule name="iCNT_H_DMA_Repeat" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Transfer_Type" Register="1"/>
+            <SubModule name="iCNT_H_DMA_start_timing" Register="2"/>
+            <SubModule name="iCNT_H_IRQ_on" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Enable" Register="2" Lut="1"/>
+        </SubModule>
+        <SubModule name="igba_dma_module2" Register="203" Lut="714">
+            <SubModule name="iSAD" Register="27" Lut="5"/>
+            <SubModule name="iDAD" Register="26" Lut="5"/>
+            <SubModule name="iCNT_L" Register="14" Lut="5"/>
+            <SubModule name="iCNT_H_Dest_Addr_Control" Register="2" Lut="1"/>
+            <SubModule name="iCNT_H_Source_Adr_Control" Register="2" Lut="1"/>
+            <SubModule name="iCNT_H_DMA_Repeat" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Transfer_Type" Register="1"/>
+            <SubModule name="iCNT_H_DMA_start_timing" Register="2"/>
+            <SubModule name="iCNT_H_IRQ_on" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Enable" Register="2" Lut="1"/>
+        </SubModule>
+        <SubModule name="igba_dma_module3" Register="220" Lut="680">
+            <SubModule name="iCNT_H_Game_Pak_DRQ" Register="1" Lut="2"/>
+            <SubModule name="iSAD" Register="27" Lut="5"/>
+            <SubModule name="iDAD" Register="27" Lut="4"/>
+            <SubModule name="iCNT_L" Register="16" Lut="2"/>
+            <SubModule name="iCNT_H_Dest_Addr_Control" Register="2" Lut="1"/>
+            <SubModule name="iCNT_H_Source_Adr_Control" Register="2"/>
+            <SubModule name="iCNT_H_DMA_Repeat" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Transfer_Type" Register="1"/>
+            <SubModule name="iCNT_H_DMA_start_timing" Register="2"/>
+            <SubModule name="iCNT_H_IRQ_on" Register="1"/>
+            <SubModule name="iCNT_H_DMA_Enable" Register="2" Lut="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="timer">
+        <SubModule name="igba_timer_module0" Register="72" Lut="127">
+            <SubModule name="iL_Counter_Reload" Register="16" Lut="3"/>
+            <SubModule name="iH_Prescaler" Register="2"/>
+            <SubModule name="iH_Count_up" Register="1"/>
+            <SubModule name="iH_Timer_IRQ_Enable" Register="1" Lut="1"/>
+        </SubModule>
+        <SubModule name="igba_timer_module1" Register="72" Lut="113">
+            <SubModule name="iL_Counter_Reload" Register="16" Lut="3"/>
+            <SubModule name="iH_Prescaler" Register="2"/>
+            <SubModule name="iH_Count_up" Register="1"/>
+            <SubModule name="iH_Timer_IRQ_Enable" Register="1" Lut="1"/>
+        </SubModule>
+        <SubModule name="igba_timer_module2" Register="72" Lut="113">
+            <SubModule name="iL_Counter_Reload" Register="16" Lut="3"/>
+            <SubModule name="iH_Prescaler" Register="2"/>
+            <SubModule name="iH_Count_up" Register="1"/>
+            <SubModule name="iH_Timer_IRQ_Enable" Register="1" Lut="1"/>
+        </SubModule>
+        <SubModule name="igba_timer_module3" Register="71" Lut="115">
+            <SubModule name="iL_Counter_Reload" Register="16" Lut="3"/>
+            <SubModule name="iH_Prescaler" Register="2"/>
+            <SubModule name="iH_Count_up" Register="1"/>
+            <SubModule name="iH_Timer_IRQ_Enable" Register="1" Lut="1"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="ds2">
+        <SubModule name="ds" Register="25" Alu="6" Lut="10">
+            <SubModule name="pls" Register="19" Alu="10" Lut="21"/>
+            <SubModule name="txd" Register="9" Lut="10"/>
+            <SubModule name="rxd" Register="16"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="joypad" Register="65" Alu="26" Lut="58">
+        <SubModule name="iReg_KEYCNT" Register="16" Lut="6"/>
+    </SubModule>
+    <SubModule name="video" Register="136" Alu="46" Lut="177" MULT12X12="2" Bsram="54">
+        <SubModule name="hdmi" Register="62" Alu="10" Lut="59">
+            <SubModule name="true_hdmi_output.packet_picker" Register="429" Lut="335">
+                <SubModule name="audio_clock_regeneration_packet" Register="44" Alu="21" Lut="8"/>
+            </SubModule>
+            <SubModule name="true_hdmi_output.packet_assembler" Register="45" Alu="4" Lut="377"/>
+            <SubModule name="tmds_gen[0].tmds_channel" Register="14" Alu="16" Lut="108"/>
+            <SubModule name="tmds_gen[1].tmds_channel" Register="14" Alu="16" Lut="91"/>
+            <SubModule name="tmds_gen[2].tmds_channel" Register="14" Alu="16" Lut="89"/>
+            <SubModule name="serializer"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="iosys" Register="183" Alu="76" Lut="378">
+        <SubModule name="Briey" Register="384" Alu="8" Lut="117">
+            <SubModule name="io_asyncReset_buffercc" Register="2"/>
+            <SubModule name="axi_ram" Register="34" Lut="74" Bsram="64"/>
+            <SubModule name="axi_axi_Lite" Register="36" Lut="10"/>
+            <SubModule name="axi_core_cpu" Register="898" Alu="303" Lut="2080" MULTALU27X18="4" Bsram="2">
+                <SubModule name="IBusCachedPlugin_cache" Register="75" Alu="27" Lut="85" Bsram="3"/>
+                <SubModule name="dataCache_1" Register="66" Alu="39" Lut="111" Bsram="5"/>
+            </SubModule>
+            <SubModule name="io_coreInterrupt_buffercc" Register="2"/>
+            <SubModule name="jtagBridge_1" Register="114" Lut="66">
+                <SubModule name="flowCCUnsafeByToggle_1" Register="7" Lut="3">
+                    <SubModule name="inputArea_target_buffercc" Register="2"/>
+                </SubModule>
+            </SubModule>
+            <SubModule name="systemDebugger_1" Register="78" Lut="13"/>
+            <SubModule name="axi4ReadOnlyDecoder_1" Register="6" Alu="3" Lut="82">
+                <SubModule name="errorSlave" Register="9" Lut="21"/>
+            </SubModule>
+            <SubModule name="dbus_axi_decoder" Register="10" Alu="3" Lut="67">
+                <SubModule name="errorSlave" Register="11" Lut="27"/>
+            </SubModule>
+            <SubModule name="axi_ram_io_axi_arbiter" Register="2" Lut="5">
+                <SubModule name="cmdArbiter" Register="3" Lut="18"/>
+                <SubModule name="cmdRouteFork_thrown_translated_fifo">
+                    <SubModule name="fifo" Register="6" Alu="3" Lut="15"/>
+                </SubModule>
+            </SubModule>
+            <SubModule name="axi_axi_Lite_io_axi_arbiter" Register="2" Lut="5">
+                <SubModule name="cmdArbiter" Register="3" Lut="56"/>
+                <SubModule name="cmdRouteFork_thrown_translated_fifo">
+                    <SubModule name="fifo" Register="6" Alu="3" Lut="12"/>
+                </SubModule>
+            </SubModule>
+        </SubModule>
+        <SubModule name="apb2custom" Register="66" Lut="10"/>
+        <SubModule name="disp" Register="38" Alu="14" Lut="96">
+            <SubModule name="menu_mem" Bsram="1"/>
+        </SubModule>
+        <SubModule name="simpleuart" Register="83" Alu="61" Lut="83"/>
+        <SubModule name="simplespi" Register="52" Lut="49">
+            <SubModule name="spi_io_master" Register="36" Lut="44"/>
+        </SubModule>
+        <SubModule name="flash" Register="79" Lut="118">
+            <SubModule name="spi" Register="36" Lut="44"/>
+        </SubModule>
+    </SubModule>
+    <SubModule name="capture">
+        <SubModule name="ddr_wr" Register="2" Lut="9"/>
+        <SubModule name="pixel_udp_fifo" Register="79" Alu="18" Lut="84" Bsram="1"/>
+        <SubModule name="udp" Register="12">
+            <SubModule name="GMII_send_m0" Register="68" Alu="49" Lut="227">
+                <SubModule name="crc32_m0" Register="32" Lut="49"/>
+            </SubModule>
+            <SubModule name="GMII2RGMII_m0"/>
+        </SubModule>
+    </SubModule>
+</Module>

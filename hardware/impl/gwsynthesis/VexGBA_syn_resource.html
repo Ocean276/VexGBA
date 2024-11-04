@@ -1,0 +1,3311 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Hierarchy Module Resource</title>
+<style type="text/css">
+body { font-family: Verdana, Arial, sans-serif; font-size: 14px; }
+div#main_wrapper{ width: 100%; }
+h1 {text-align: center; }
+h1 {margin-top: 36px; }
+table, th, td { border: 1px solid #aaa; }
+table { border-collapse:collapse; margin-top: 10px; margin-bottom: 20px; width: 100%; }
+th, td { align = "center"; padding: 5px 2px 5px 5px; }
+th { color: #fff; font-weight: bold; background-color: #0084ff; }
+table td.label { width: 20%; white-space: nowrap; min-width: 20px; background-color: #dee8f4; }
+</style>
+</head>
+<body>
+<div id="main_wrapper">
+<div id="content">
+<h1>Hierarchy Module Resource</h1>
+<table>
+<tr>
+<th class="label">MODULE NAME</th>
+<th class="label">REG NUMBER</th>
+<th class="label">ALU NUMBER</th>
+<th class="label">LUT NUMBER</th>
+<th class="label">DSP NUMBER</th>
+<th class="label">BSRAM NUMBER</th>
+<th class="label">SSRAM NUMBER</th>
+</tr>
+<tr>
+<td class="label">VexGBA (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">29</td>
+<td align = "center">26</td>
+<td align = "center">17</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--pll27
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--pll33
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--pll74
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--GMII_pll
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--cpu
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">1229</td>
+<td align = "center">275</td>
+<td align = "center">5712</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--thumb_decoder
+ (F:/2024FPGA/gbatang/src/cpu/gba_cpu.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">427</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--gpu
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">17</td>
+<td align = "center">-</td>
+<td align = "center">13</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_gpu_timing
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu.v)</td>
+<td align = "center">68</td>
+<td align = "center">-</td>
+<td align = "center">95</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPSTAT_V_Blank_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPSTAT_H_Blank_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPSTAT_V_Counter_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPSTAT_V_Count_Setting
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_timing.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--drawer
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu.v)</td>
+<td align = "center">1041</td>
+<td align = "center">118</td>
+<td align = "center">1385</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_BG_Mode
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Reserved_CGB_Mode
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Display_Frame_Select
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_H_Blank_IntervalFree
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_OBJ_Char_VRAM_Map
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Forced_Blank
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Screen_Display_BG0
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Screen_Display_BG1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Screen_Display_BG2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Screen_Display_BG3
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Screen_Display_OBJ
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Window_0_Display_Flag
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_Window_1_Display_Flag
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_DISPCNT_OBJ_Wnd_Display_Flag
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_GREENSWAP
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_BG_Priority
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_Character_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_UNUSED_4_5
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_Mosaic
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_Colors_Palettes
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_Screen_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0CNT_Screen_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_BG_Priority
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_Character_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_UNUSED_4_5
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_Mosaic
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_Colors_Palettes
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_Screen_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1CNT_Screen_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_BG_Priority
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_Character_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_UNUSED_4_5
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_Mosaic
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_Colors_Palettes
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_Screen_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_Display_Area_Overflow
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2CNT_Screen_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_BG_Priority
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_Character_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_UNUSED_4_5
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_Mosaic
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_Colors_Palettes
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_Screen_Base_Block
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_Display_Area_Overflow
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3CNT_Screen_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0HOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG0VOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1HOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG1VOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2HOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2VOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3HOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3VOFS
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2RotScaleParDX
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2RotScaleParDMX
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2RotScaleParDY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2RotScaleParDMY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2RefX
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">29</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG2RefY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">29</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3RotScaleParDX
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3RotScaleParDMX
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3RotScaleParDY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3RotScaleParDMY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3RefX
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">29</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BG3RefY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">29</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN0H_X2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN0H_X1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN1H_X2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN1H_X1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN0V_Y2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN0V_Y1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN1V_Y2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WIN1V_Y1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_0_BG0_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_0_BG1_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_0_BG2_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_0_BG3_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_0_OBJ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_0_Special_Effect
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_1_BG0_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_1_BG1_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_1_BG2_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_1_BG3_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_1_OBJ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WININ_Window_1_Special_Effect
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Outside_BG0_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Outside_BG1_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Outside_BG2_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Outside_BG3_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Outside_OBJ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Outside_Special_Effect
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Objwnd_BG0_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Objwnd_BG1_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Objwnd_BG2_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Objwnd_BG3_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Objwnd_OBJ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WINOUT_Objwnd_Special_Effect
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_MOSAIC_BG_Mosaic_H_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_MOSAIC_BG_Mosaic_V_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_MOSAIC_OBJ_Mosaic_H_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_MOSAIC_OBJ_Mosaic_V_Size
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG0_1st_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG1_1st_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG2_1st_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG3_1st_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_OBJ_1st_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BD_1st_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_Color_Special_Effect
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG0_2nd_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG1_2nd_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG2_2nd_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BG3_2nd_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_OBJ_2nd_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDCNT_BD_2nd_Target_Pixel
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDALPHA_EVA_Coefficient
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDALPHA_EVB_Coefficient
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_BLDY
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ivram_lo
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">993</td>
+<td align = "center">-</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ivram_hi
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">449</td>
+<td align = "center">-</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--oamram
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--paletteram_bg
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--paletteram_oam
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode0_0
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">182</td>
+<td align = "center">128</td>
+<td align = "center">260</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode0_1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">182</td>
+<td align = "center">128</td>
+<td align = "center">260</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode0_2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">182</td>
+<td align = "center">128</td>
+<td align = "center">260</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode0_3
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">182</td>
+<td align = "center">128</td>
+<td align = "center">260</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode2_2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">276</td>
+<td align = "center">137</td>
+<td align = "center">390</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode2_3
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">276</td>
+<td align = "center">137</td>
+<td align = "center">389</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_mode345
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">191</td>
+<td align = "center">107</td>
+<td align = "center">332</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_obj
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">1223</td>
+<td align = "center">318</td>
+<td align = "center">1839</td>
+<td align = "center">11</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ilinebuffer_bg0
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ilinebuffer_bg1
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ilinebuffer_bg2
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ilinebuffer_bg3
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ilinebuffer_obj_color
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ilinebuffer_obj_settings
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_drawer_merge
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu_drawer.v)</td>
+<td align = "center">656</td>
+<td align = "center">117</td>
+<td align = "center">393</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_gpu_colorshade
+ (F:/2024FPGA/gbatang/src/gpu/gba_gpu.v)</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--sound
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">175</td>
+<td align = "center">102</td>
+<td align = "center">282</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_1_4_Master_Volume_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_1_4_Master_Volume_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_1_Enable_Flags_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_2_Enable_Flags_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_3_Enable_Flags_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_4_Enable_Flags_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_1_Enable_Flags_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_2_Enable_Flags_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_3_Enable_Flags_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_4_Enable_Flags_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSound_1_4_Volume
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_A_Volume
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_B_Volume
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_A_Enable_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_A_Enable_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_A_Timer_Select
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_A_Reset_FIFO
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_B_Enable_RIGHT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_B_Enable_LEFT
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_B_Timer_Select
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDMA_Sound_B_Reset_FIFO
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iPSG_FIFO_Master_Enable
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUNDBIAS
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_sound_ch1
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">168</td>
+<td align = "center">87</td>
+<td align = "center">322</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gsweep.iReg_Channel_Number_of_sweep_shift
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gsweep.iReg_Channel_Sweep_Frequency_Direction
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--gsweep.iReg_Channel_Sweep_Time
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Sound_length
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">7</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Wave_Pattern_Duty
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Envelope_Step_Time
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Envelope_Direction
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Initial_Volume_of_envelope
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Frequency
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">12</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Length_Flag
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Initial
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_sound_ch2
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">126</td>
+<td align = "center">47</td>
+<td align = "center">217</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Sound_length
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">7</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Wave_Pattern_Duty
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Envelope_Step_Time
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Envelope_Direction
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Initial_Volume_of_envelope
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Frequency
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">12</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Length_Flag
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_Channel_Initial
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch1.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_sound_ch3
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">384</td>
+<td align = "center">33</td>
+<td align = "center">408</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_L_Wave_RAM_Dimension
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_L_Wave_RAM_Bank_Number
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_L_Sound_Channel_3_Off
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_H_Sound_length
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_H_Sound_Volume
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_H_Force_Volume
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_X_Sample_Rate
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">12</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_X_Length_Flag
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_SOUND3CNT_X_Initial
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WAVE_RAM
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WAVE_RAM2
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WAVE_RAM3
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WAVE_RAM4
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch3.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_sound_ch4
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">138</td>
+<td align = "center">51</td>
+<td align = "center">231</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Sound_length
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">7</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Envelope_Step_Time
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Envelope_Direction
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Initial_Volume_of_envelope
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Dividing_Ratio_of_Freq
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Counter_Step_Width
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Shift_Clock_Frequency
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Length_Flag
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_Initial
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_ch4.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_sound_dmaA
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">55</td>
+<td align = "center">3</td>
+<td align = "center">67</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iFIFO_REGISTER
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">15</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_sound_dmaB
+ (F:/2024FPGA/gbatang/src/sound/gba_sound.v)</td>
+<td align = "center">51</td>
+<td align = "center">3</td>
+<td align = "center">67</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iFIFO_REGISTER
+ (F:/2024FPGA/gbatang/src/sound/gba_sound_dma.v)</td>
+<td align = "center">33</td>
+<td align = "center">-</td>
+<td align = "center">15</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--clk_6p25m
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--clk_1p526m
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--Audio_SDPB
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--u_audio_drive_0
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">25</td>
+<td align = "center">4</td>
+<td align = "center">20</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--mem
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">318</td>
+<td align = "center">3</td>
+<td align = "center">1338</td>
+<td align = "center">-</td>
+<td align = "center">8</td>
+<td align = "center">2</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iwram
+ (F:/2024FPGA/gbatang/src/memory/gba_memory.sv)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">226</td>
+<td align = "center">-</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--eeprom
+ (F:/2024FPGA/gbatang/src/memory/gba_memory.sv)</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">186</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--m_eeprom
+ (F:/2024FPGA/gbatang/src/memory/gba_eeprom.sv)</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">30</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--sdram
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">318</td>
+<td align = "center">22</td>
+<td align = "center">1007</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--rv_adapt
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">70</td>
+<td align = "center">-</td>
+<td align = "center">152</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--intr
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">43</td>
+<td align = "center">-</td>
+<td align = "center">65</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_IRP_IE
+ (F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_IRP_IF
+ (F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v)</td>
+<td align = "center">13</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_WAITCNT
+ (F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v)</td>
+<td align = "center">15</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_IME
+ (F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iREG_HALTCNT
+ (F:/2024FPGA/gbatang/src/cpu/gba_interrupts.v)</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--dma
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">35</td>
+<td align = "center">-</td>
+<td align = "center">142</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_dma_module0
+ (F:/2024FPGA/gbatang/src/memory/gba_dma.v)</td>
+<td align = "center">203</td>
+<td align = "center">-</td>
+<td align = "center">719</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">26</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">26</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_L
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Dest_Addr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Source_Adr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Repeat
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Transfer_Type
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_start_timing
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_IRQ_on
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Enable
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_dma_module1
+ (F:/2024FPGA/gbatang/src/memory/gba_dma.v)</td>
+<td align = "center">203</td>
+<td align = "center">-</td>
+<td align = "center">724</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">26</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_L
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Dest_Addr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Source_Adr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Repeat
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Transfer_Type
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_start_timing
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_IRQ_on
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Enable
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_dma_module2
+ (F:/2024FPGA/gbatang/src/memory/gba_dma.v)</td>
+<td align = "center">203</td>
+<td align = "center">-</td>
+<td align = "center">714</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">26</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_L
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">14</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Dest_Addr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Source_Adr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Repeat
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Transfer_Type
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_start_timing
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_IRQ_on
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Enable
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_dma_module3
+ (F:/2024FPGA/gbatang/src/memory/gba_dma.v)</td>
+<td align = "center">220</td>
+<td align = "center">-</td>
+<td align = "center">680</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Game_Pak_DRQ
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iSAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iDAD
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">4</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_L
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Dest_Addr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_Source_Adr_Control
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Repeat
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Transfer_Type
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_start_timing
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_IRQ_on
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iCNT_H_DMA_Enable
+ (F:/2024FPGA/gbatang/src/memory/gba_dma_module.sv)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--timer
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_timer_module0
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer.v)</td>
+<td align = "center">72</td>
+<td align = "center">-</td>
+<td align = "center">127</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iL_Counter_Reload
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Prescaler
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Count_up
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Timer_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_timer_module1
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer.v)</td>
+<td align = "center">72</td>
+<td align = "center">-</td>
+<td align = "center">113</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iL_Counter_Reload
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Prescaler
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Count_up
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Timer_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_timer_module2
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer.v)</td>
+<td align = "center">72</td>
+<td align = "center">-</td>
+<td align = "center">113</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iL_Counter_Reload
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Prescaler
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Count_up
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Timer_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--igba_timer_module3
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer.v)</td>
+<td align = "center">71</td>
+<td align = "center">-</td>
+<td align = "center">115</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iL_Counter_Reload
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Prescaler
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Count_up
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iH_Timer_IRQ_Enable
+ (F:/2024FPGA/gbatang/src/gpu/gba_timer_module.v)</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--ds2
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ds
+ (F:/2024FPGA/gbatang/src/peripherals/controller_ds2.sv)</td>
+<td align = "center">25</td>
+<td align = "center">6</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--pls
+ (F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v)</td>
+<td align = "center">19</td>
+<td align = "center">10</td>
+<td align = "center">21</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--txd
+ (F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--rxd
+ (F:/2024FPGA/gbatang/src/peripherals/dualshock_controller.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--joypad
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">65</td>
+<td align = "center">26</td>
+<td align = "center">58</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--iReg_KEYCNT
+ (F:/2024FPGA/gbatang/src/peripherals/gba_joypad.v)</td>
+<td align = "center">16</td>
+<td align = "center">-</td>
+<td align = "center">6</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--video
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">136</td>
+<td align = "center">46</td>
+<td align = "center">177</td>
+<td align = "center">2</td>
+<td align = "center">54</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--hdmi
+ (F:/2024FPGA/gbatang/src/gba2hdmi.sv)</td>
+<td align = "center">62</td>
+<td align = "center">10</td>
+<td align = "center">59</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--true_hdmi_output.packet_picker
+ (F:/2024FPGA/gbatang/src/hdmi/hdmi.sv)</td>
+<td align = "center">429</td>
+<td align = "center">-</td>
+<td align = "center">335</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--audio_clock_regeneration_packet
+ (F:/2024FPGA/gbatang/src/hdmi/packet_picker.sv)</td>
+<td align = "center">44</td>
+<td align = "center">21</td>
+<td align = "center">8</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--true_hdmi_output.packet_assembler
+ (F:/2024FPGA/gbatang/src/hdmi/hdmi.sv)</td>
+<td align = "center">45</td>
+<td align = "center">4</td>
+<td align = "center">377</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--tmds_gen[0].tmds_channel
+ (F:/2024FPGA/gbatang/src/hdmi/hdmi.sv)</td>
+<td align = "center">14</td>
+<td align = "center">16</td>
+<td align = "center">108</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--tmds_gen[1].tmds_channel
+ (F:/2024FPGA/gbatang/src/hdmi/hdmi.sv)</td>
+<td align = "center">14</td>
+<td align = "center">16</td>
+<td align = "center">91</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--tmds_gen[2].tmds_channel
+ (F:/2024FPGA/gbatang/src/hdmi/hdmi.sv)</td>
+<td align = "center">14</td>
+<td align = "center">16</td>
+<td align = "center">89</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--serializer
+ (F:/2024FPGA/gbatang/src/hdmi/hdmi.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--iosys
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">183</td>
+<td align = "center">76</td>
+<td align = "center">378</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--Briey
+ (F:/2024FPGA/gbatang/src/iosys/iosys.v)</td>
+<td align = "center">384</td>
+<td align = "center">8</td>
+<td align = "center">117</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_asyncReset_buffercc
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--axi_ram
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">34</td>
+<td align = "center">-</td>
+<td align = "center">74</td>
+<td align = "center">-</td>
+<td align = "center">64</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--axi_axi_Lite
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--axi_core_cpu
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">898</td>
+<td align = "center">303</td>
+<td align = "center">2080</td>
+<td align = "center">4</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--IBusCachedPlugin_cache
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">75</td>
+<td align = "center">27</td>
+<td align = "center">85</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dataCache_1
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">66</td>
+<td align = "center">39</td>
+<td align = "center">111</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--io_coreInterrupt_buffercc
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--jtagBridge_1
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">114</td>
+<td align = "center">-</td>
+<td align = "center">66</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--flowCCUnsafeByToggle_1
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">7</td>
+<td align = "center">-</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--inputArea_target_buffercc
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--systemDebugger_1
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">78</td>
+<td align = "center">-</td>
+<td align = "center">13</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--axi4ReadOnlyDecoder_1
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">6</td>
+<td align = "center">3</td>
+<td align = "center">82</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--errorSlave
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">21</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--dbus_axi_decoder
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">10</td>
+<td align = "center">3</td>
+<td align = "center">67</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--errorSlave
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">11</td>
+<td align = "center">-</td>
+<td align = "center">27</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--axi_ram_io_axi_arbiter
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cmdArbiter
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">18</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cmdRouteFork_thrown_translated_fifo
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--fifo
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">6</td>
+<td align = "center">3</td>
+<td align = "center">15</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--axi_axi_Lite_io_axi_arbiter
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">5</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cmdArbiter
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">3</td>
+<td align = "center">-</td>
+<td align = "center">56</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--cmdRouteFork_thrown_translated_fifo
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--fifo
+ (F:/2024FPGA/gbatang/src/iosys/Briey.v)</td>
+<td align = "center">6</td>
+<td align = "center">3</td>
+<td align = "center">12</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--apb2custom
+ (F:/2024FPGA/gbatang/src/iosys/iosys.v)</td>
+<td align = "center">66</td>
+<td align = "center">-</td>
+<td align = "center">10</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--disp
+ (F:/2024FPGA/gbatang/src/iosys/iosys.v)</td>
+<td align = "center">38</td>
+<td align = "center">14</td>
+<td align = "center">96</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--menu_mem
+ (F:/2024FPGA/gbatang/src/iosys/textdisp.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--simpleuart
+ (F:/2024FPGA/gbatang/src/iosys/iosys.v)</td>
+<td align = "center">83</td>
+<td align = "center">61</td>
+<td align = "center">83</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--simplespi
+ (F:/2024FPGA/gbatang/src/iosys/iosys.v)</td>
+<td align = "center">52</td>
+<td align = "center">-</td>
+<td align = "center">49</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--spi_io_master
+ (F:/2024FPGA/gbatang/src/iosys/simplespimaster.v)</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">44</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--flash
+ (F:/2024FPGA/gbatang/src/iosys/iosys.v)</td>
+<td align = "center">79</td>
+<td align = "center">-</td>
+<td align = "center">118</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--spi
+ (F:/2024FPGA/gbatang/src/iosys/spiflash.v)</td>
+<td align = "center">36</td>
+<td align = "center">-</td>
+<td align = "center">44</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp|--capture
+ (F:/2024FPGA/gbatang/src/VexGBA.sv)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--ddr_wr
+ (F:/2024FPGA/gbatang/src/capture/capture.v)</td>
+<td align = "center">2</td>
+<td align = "center">-</td>
+<td align = "center">9</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--pixel_udp_fifo
+ (F:/2024FPGA/gbatang/src/capture/capture.v)</td>
+<td align = "center">79</td>
+<td align = "center">18</td>
+<td align = "center">84</td>
+<td align = "center">-</td>
+<td align = "center">1</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--udp
+ (F:/2024FPGA/gbatang/src/capture/capture.v)</td>
+<td align = "center">12</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--GMII_send_m0
+ (F:/2024FPGA/gbatang/src/capture/udp.v)</td>
+<td align = "center">68</td>
+<td align = "center">49</td>
+<td align = "center">227</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--crc32_m0
+ (F:/2024FPGA/gbatang/src/capture/GMII_send.sv)</td>
+<td align = "center">32</td>
+<td align = "center">-</td>
+<td align = "center">49</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+<td class="label">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|--GMII2RGMII_m0
+ (F:/2024FPGA/gbatang/src/capture/udp.v)</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+<td align = "center">-</td>
+</tr>
+</table>
+</div><!-- content -->
+</div><!-- main_wrapper -->
+</body>
+</html>
